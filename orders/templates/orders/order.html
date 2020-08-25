@@ -4,7 +4,7 @@
 
 <a href="/orders/"><h2 class="text-info">{{ order_info.order_num }}</h2></a>
 {% if order_info.order_date %}
-<h5 class="text-secondary">Дата приказа: {{ order_info.order_date}}</h5>
+<h5 class="text-secondary">Дата приказа: {{ order_info.order_date|date:"d.m.Y"}}</h5>
 {% endif %}
 {% if order_info.order_file %}
 <h6 class="text-dark">

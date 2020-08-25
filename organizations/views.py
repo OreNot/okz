@@ -13,10 +13,26 @@ def get_organization(request, pk):
 
     organization_info = {
         'id': organization.id,
-            'organization_name': organization.organization_name,
-            'gid': organization.gid,
-            'inn': organization.inn,
-            'organization_orders': orders
+        'organization_name': organization.organization_name,
+        'gid': organization.gid,
+        'inn': organization.inn,
+        'full_organization_name': organization.full_organization_name,
+        'services': organization.services,
+        'doc_num': organization.doc_num,
+        'doc_date': organization.doc_date,
+        'order_start_date': organization.order_start_date,
+        'order_end_date': organization.order_end_date,
+        'order_status': organization.order_status.status_name,
+        'order_activity': organization.order_activity.activity_name,
+        'document_price': organization.document_price,
+        'document_price_with_nds': organization.document_price_with_nds,
+        'doc_prepare_date': organization.doc_prepare_date,
+        'doc_eosdo_date': organization.doc_eosdo_date,
+        'doc_sending_date': organization.doc_sending_date,
+        'order_activity_date': organization.order_activity_date,
+        'doc_eosdo_num': organization.doc_eosdo_num,
+        'doc_eosdo_link': organization.doc_eosdo_link,
+        'organization_orders': orders
     }
 
     context = {'organization_info': organization_info}
@@ -45,9 +61,10 @@ def get_organizations(request):
 
                     organization_info = {
                         'id': organization.id,
-                        'organization_name': organization.organization_name,
-                        'gid': organization.gid,
-                        'organization_orders': organizationOrderList
+                         'organization_name': organization.organization_name,
+                         'gid': organization.gid,
+                         'inn': organization.inn,
+                          'services': organization.services
 
                     }
                     if (organization.gid not in gids):
@@ -76,6 +93,8 @@ def get_organizations(request):
                         'id': organization.id,
                         'organization_name': organization.organization_name,
                         'gid': organization.gid,
+                        'inn': organization.inn,
+                        'services': organization.services
 
 
                     }
@@ -108,8 +127,8 @@ def get_organizations(request):
             'id': organization.id,
             'organization_name': organization.organization_name,
             'gid': organization.gid,
-            'organization_orders': organizationOrderList
-
+            'inn': organization.inn,
+            'services': organization.services
 
         }
         if(organization.gid not in gids):

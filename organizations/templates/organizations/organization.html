@@ -4,58 +4,58 @@
 
 <a href="/organizations/"><h2 class="text-info">{{ organization_info.organization_name }}</h2></a>
     {% if organization_info.gid %}
-<h6 class="text-dark">GID: {{ organization_info.gid }}</h6>
+<h6 class="text-info">GID: <p style="display:inline" class="text-dark">{{ organization_info.gid }}</p></h6>
     {% endif %}
     {% if organization_info.inn %}
-<h6 class="text-dark">ИНН: {{ organization_info.inn }}</h6>
+<h6 class="text-info">ИНН: <p style="display:inline" class="text-dark">{{ organization_info.inn }}</p></h6>
     {% endif %}
     {% if organization_info.full_organization_name %}</h2>
-<h6 class="text-dark">Полное наименование: {{ organization_info.full_organization_name }}</h6>
+<h6 class="text-info">Полное наименование: <p style="display:inline" class="text-dark">{{ organization_info.full_organization_name }}</p></h6>
     {% endif %}
     {% if organization_info.services %}
-<h6 class="text-dark">Предмет документа: {{ organization_info.services }}</h6>
+<h6 class="text-info">Предмет документа: <p style="display:inline" class="text-dark">{{ organization_info.services }}</p></h6>
     {% endif %}
     {% if organization_info.docid %}
-<h6 class="text-dark">ID Документа: {{ organization_info.docid }}</h6>
+<h6 class="text-info">ID Документа: <p style="display:inline" class="text-dark">{{ organization_info.docid }}</p></h6>
     {% endif %}
     {% if organization_info.doc_num %}
-<h6 class="text-dark">Номер документа: {{ organization_info.doc_num }}</h6>
+<h6 class="text-info">Номер документа: <p style="display:inline" class="text-dark">{{ organization_info.doc_num }}</p></h6>
     {% endif %}
     {% if organization_info.doc_date %}
-<h6 class="text-dark">Дата документа: {{ organization_info.doc_date }}</h6>
+<h6 class="text-info">Дата документа: <p style="display:inline" class="text-dark">{{ organization_info.doc_date }}</p></h6>
     {% endif %}
     {% if organization_info.order_start_date %}
-<h6 class="text-dark">Дата начала действия документа: {{ organization_info.order_start_date }}</h6>
+<h6 class="text-info">Дата начала действия документа: <p style="display:inline" class="text-dark">{{ organization_info.order_start_date }}</p></h6>
     {% endif %}
     {% if organization_info.order_end_date %}
-<h6 class="text-dark">Дата окончания действия документа: {{ organization_info.order_end_date }}</h6>
+<h6 class="text-info">Дата окончания действия документа: <p style="display:inline" class="text-dark">{{ organization_info.order_end_date }}</p></h6>
     {% endif %}
     {% if organization_info.order_status %}
-<h6 class="text-dark">Статус документа: {{ organization_info.order_status.status_name }}</h6>
+<h6 class="text-info">Статус документа: <p style="display:inline" class="text-dark">{{ organization_info.order_status.status_name }}</p></h6>
     {% endif %}
     {% if organization_info.order_activity %}
-<h6 class="text-dark">Активность документа: {{ organization_info.order_activity.activity_name }}</h6>
+<h6 class="text-info">Активность документа: <p style="display:inline" class="text-dark">{{ organization_info.order_activity.activity_name }}</p></h6>
     {% endif %}
     {% if organization_info.document_price %}
-<h6 class="text-dark">Общая стоймость: {{ organization_info.document_price }} руб.</h6>
+<h6 class="text-info">Общая стоймость: <p style="display:inline" class="text-dark">{{ organization_info.document_price }} руб.</p></h6>
     {% endif %}
     {% if organization_info.document_price_with_nds %}
-<h6 class="text-dark">Общая стоймость с НДС: {{ organization_info.document_price_with_nds }} руб.</h6>
+<h6 class="text-info">Общая стоймость с НДС: <p style="display:inline" class="text-dark">{{ organization_info.document_price_with_nds }} руб.</p></h6>
     {% endif %}
     {% if organization_info.doc_prepare_date %}
-<h6 class="text-dark">Дата заявки на подготовку: {{ organization_info.doc_prepare_date }} руб.</h6>
+<h6 class="text-info">Дата заявки на подготовку: <p style="display:inline" class="text-dark">{{ organization_info.doc_prepare_date }} руб.</p></h6>
     {% endif %}
     {% if organization_info.doc_eosdo_date %}
-<h6 class="text-dark">Дата загрузки в ЕОСДО: {{ organization_info.doc_eosdo_date }} руб.</h6>
+<h6 class="text-info">Дата загрузки в ЕОСДО: <p style="display:inline" class="text-dark">{{ organization_info.doc_eosdo_date }} руб.</p></h6>
     {% endif %}
     {% if organization_info.doc_sending_date %}
-<h6 class="text-dark">Дата отправки контрагенту: {{ organization_info.doc_sending_date }} руб.</h6>
+<h6 class="text-info">Дата отправки контрагенту: <p style="display:inline" class="text-dark">{{ organization_info.doc_sending_date }} руб.</p></h6>
     {% endif %}
     {% if organization_info.order_activity_date %}
-<h6 class="text-dark">Дата активации: {{ organization_info.order_activity_date }}</h6>
+<h6 class="text-info">Дата активации: <p style="display:inline" class="text-dark">{{ organization_info.order_activity_date }}</p></h6>
     {% endif %}
     {% if organization_info.doc_eosdo_num %}
-<h6 class="text-dark">Номер документа в ЕОСДО: {{ organization_info.doc_eosdo_num }}</h6>
+<h6 class="text-info">Номер документа в ЕОСДО: <p style="display:inline" class="text-dark">{{ organization_info.doc_eosdo_num }}</p></h6>
     {% endif %}
 
 

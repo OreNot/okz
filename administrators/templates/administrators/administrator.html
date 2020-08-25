@@ -54,7 +54,7 @@
 <h5 class="text-secondary">Стоймость: {{ order_admin_ib.order_organization.document_price }} руб.</h5>
 {% endif %}
 {% if order_admin_ib.order_organization.doc_eosdo_date %}
-<h5 class="text-secondary">Дата публикации в ЕОСДО: {{ order_admin_ib.order_organization.doc_eosdo_date }}</h5>
+<h5 class="text-secondary">Дата публикации в ЕОСДО: {{ order_admin_ib.order_organization.doc_eosdo_date|date:"d.m.Y" }}</h5>
 {% endif %}
 
 {% if order_admin_ib.order_organization.doc_eosdo_num %}
