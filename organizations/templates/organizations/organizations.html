@@ -1,0 +1,74 @@
+
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+
+    <div class="row">
+        <div>
+                 <div class="form-check form-check-inline mt-3 w-95 col">
+
+                     {{ form.organization_name }}
+
+                    </div>
+        </div>
+        <div>
+             <div class="form-group row mt-3">
+                    <div class="col-sm-1">
+                        <button type="submit"  id="submit" class="btn btn-primary mb-2">Поиск</button>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+                </div>
+
+
+
+<h1 class="display-4">База договоров</h1>
+<div class="jumbotron mt-3">
+
+ {% for organization in all_organizations %}
+    {% if organization.organization_name or organization.branch or organization.full_organization_name %}
+<a href="/organizations/{{ organization.id }}"><h3>{{ organization.organization_name }}</h3></a>
+    {% if organization.full_organization_name %}
+<h5>{{ organization.full_organization_name }}</h5>
+    {% endif %}
+    {% if organization.branch %}
+<h5>{{ organization.branch }}</h5>
+    {% endif %}
+    {% if organization.area %}
+<h5>{{ organization.area }}</h5>
+    {% endif %}
+    {% if organization.city %}
+<h5>{{ organization.city }}</h5>
+    {% endif %}
+    {% if organization.adress %}
+<h5>{{ organization.adress }}</h5>
+    {% endif %}
+    {% if organization.OGRN %}
+<h5>{{ organization.OGRN }}</h5>
+    {% endif %}
+    {% if organization.INN %}
+<h5>{{ organization.INN }}</h5>
+    {% endif %}
+    {% if organization.email_domain %}
+<h5>{{ organization.email_domain }}</h5>
+    {% endif %}
+{% endif %}
+    <br>
+    {% endfor %}
+
+
+<br>
+</div>
+            </form>
+        </div>
+</div>
+
+{% endblock %}

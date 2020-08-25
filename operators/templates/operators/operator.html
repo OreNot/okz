@@ -1,0 +1,55 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<h2 class="text-info">{{operators.fio}}</h2>
+{% if operators.filial_name %}
+<h5 class="text-secondary">Наименование Филиала: {{ operators.filial_name }}</h5>
+{% endif %}
+{% if operators.position %}
+<h5 class="text-secondary">Должность: {{operators.position}}</h5>
+{% endif %}
+{% if operators.telephone %}
+<h5 class="text-secondary">Телефон: {{ operators.telephone }}</h5>
+{% endif %}
+{% if operators.email %}
+<h5 class="text-secondary">E-mail:<a href="mailto:{{ operator.email }}"> {{ operators.email }}</a></h5>
+{% endif %}
+{% if operators.service_uz_name %}
+<h5 class="text-secondary">Сервисная учетная запись оператора: {{ operators.service_uz_name }}</h5>
+{% endif %}
+{% if operators.dss_cert_thumbrint %}
+<h5 class="text-secondary">Сертификат оператора: {{ operators.dss_cert_thumbrint }}</h5>
+<h5 class="text-secondary">Срок действия сертификата оператора: {{ operators.dss_cert_valid_to|date:"d.m.Y H:i" }}</h5>
+{% endif %}
+{% if operators.service_point_email %}
+<h5 class="text-secondary">Электронный адрес Удаленного пункта выдачи сертификатов: <a href="mailto:{{ operator.email }}">{{ operators.service_point_email }}</a></h5>
+{% endif %}
+{% if operators.cn %}
+<h5 class="text-secondary">Отображаемое имя в адресной книге: {{ operators.cn }}</h5>
+{% endif %}
+{% if operators.rg_hpsm %}
+<h5 class="text-secondary">РГ в HP SM (дополнительная): {{ operators.rg_hpsm }}</h5>
+{% endif %}
+{% if operators.rg_kuc_hpsm %}
+<h5 class="text-secondary">РГ КУЦ в HP SM: {{ operators.rg_kuc_hpsm }}</h5>
+{% endif %}
+{% if operators.ss_adress %}
+<h5 class="text-secondary">Филиал: {{ operators.ss_adress }}</h5>
+{% endif %}
+{% if operators.rg_hpsm_coordinator %}
+<h5 class="text-secondary">Координатор РГ в HP SM: {{ operators.rg_hpsm_coordinator }}</h5>
+{% endif %}
+{% if operators.post_system_contact %}
+<h5 class="text-secondary">Контакты для размещения в Пошаговой схеме: {{ operators.post_system_contact }}</h5>
+{% endif %}
+{% if operators.work_problems %}
+<h5 class="text-secondary">Адрес СС: {{ operators.work_problems }}</h5>
+{% endif %}
+{% if operators.description %}
+<h6 class="text-secondary">Примечание: {{ operators.description }}</h6>
+{% endif %}
+<p>{{operators.operator|safe|linebreaks}}</p>
+
+<br>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "mainapp/wrapper.html" %}
+{% load static %}
+{% block content %}
+
+<script>
+  function copyToClipboard(id) {
+    var text = document.getElementById(id);
+    text.focus();
+    text.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Copying text command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+  }
+</script>
+<form>
+<h2 class="text-info">{{ operatoranswers.answer_title }}</h2>
+        <div class="form-group">
+<button class="btn btn-primary mb-2" onclick="copyToClipboard('description')">Скопировать в буфер</button>
+  </div>
+<p>
+
+<h6 class="text-dark">
+     <div class="form-group">
+    <textarea class="form-control" id="description" rows="30">
+        {{ operatoranswers.answer_description }}
+    </textarea>
+  </div>
+
+
+
+
+</h6>
+</p>
+<p>{{operatoranswers.operatoranswer|safe|linebreaks}}</p>
+
+<br>
+    </form>
+{% endblock %}

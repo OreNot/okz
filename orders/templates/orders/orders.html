@@ -1,0 +1,62 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<script language="JavaScript">
+    function toggleSelect(elem) {
+
+    document.getElementById("submit").click();
+    }
+    </script>
+
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+
+    <div class="row">
+         <div>
+                 <div class="form-check form-check-inline mt-3 w-95 col">
+
+
+                      {{ form.organization_name }}
+
+                    </div>
+        </div>
+        <div>
+             <div class="form-group row mt-3">
+                    <div class="col-sm-1">
+                        <button type="submit" id="submit" class="btn btn-primary mb-2">фильтр</button>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+                </div>
+
+
+
+<h1 class="display-4">Приказы</h1>
+<div class="jumbotron mt-3">
+
+ {% for order in all_orders %}
+      {% if order.order_num %}
+<a href="/orders/{{ order.id }}"><h3>{{ order.order_num }}</h3></a>
+    {% if order.order_date %}
+<h5>{{ order.order_date }}</h5>
+     {% endif %}
+    {% if order.order_organization %}
+<h5>{{ order.order_organization.organization_name }}</h5>
+     {% endif %}
+{% endif %}
+    <br>
+    {% endfor %}
+
+
+<br>
+</div>
+            </form>
+        </div>
+</div>
+{% endblock %}

@@ -1,0 +1,74 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<h2 class="text-info">{{ order_admin_ib.order_administrator.fio}}</h2>
+{% if order_admin_ib.order_num %}
+<h5 class="text-secondary">Номер приказа: {{ order_admin_ib.order_num }}</h5>
+{% endif %}
+{% if order_admin_ib.order_date %}
+<h5 class="text-secondary">Дата приказа: {{ order_admin_ib.order_date}}</h5>
+{% endif %}
+{% if order_admin_ib.order_file %}
+<h6 class="text-dark">
+    <a href="/static/{{order_admin_ib.order_file}}" download> Приказ</a>
+    </h6>
+{% endif %}
+{% if order_admin_ib.order_administrator.email %}
+<h5 class="text-secondary">E-mail: {{ order_admin_ib.order_administrator.email }}</h5>
+{% endif %}
+{% if order_admin_ib.order_administrator.work_telephone and order_admin_ib.order_administrator.work_telephone != "None" %}
+<h5 class="text-secondary">Рабочий телефон: {{ order_admin_ib.order_administrator.work_telephone }}</h5>
+{% endif %}
+{% if order_admin_ib.order_administrator.mobile_telephone and order_admin_ib.order_administrator.mobile_telephone != "None" %}
+<h5 class="text-secondary">Мобильный телефон: {{ order_admin_ib.order_administrator.mobile_telephone }}</h5>
+{% endif %}
+{% if order_admin_ib.order_administrator.city and order_admin_ib.order_administrator.city != "None" %}
+<h5 class="text-secondary">Город: {{ order_admin_ib.order_administrator.city  }}</h5>
+{% endif %}
+{% if order_admin_ib.order_administrator.dl_name and order_admin_ib.order_administrator.dl_name != "None" %}
+<h5 class="text-secondary">Должность: {{ order_admin_ib.order_administrator.dl_name  }}</h5>
+{% endif %}
+{% if order_admin_ib.order_administrator.filial_name and order_admin_ib.order_administrator.filial_name != "None" %}
+<h5 class="text-secondary">Город: {{ order_admin_ib.order_administrator.filial_name  }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.gid %}
+<h5 class="text-secondary">GID Организации: {{ order_admin_ib.order_organization.gid }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.inn %}
+<h5 class="text-secondary">ИНН: {{ order_admin_ib.order_organization.inn }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.organization_name %}
+<h5 class="text-secondary">Организация: <a href="/organizations/{{ order_admin_ib.order_organization.id }}">{{ order_admin_ib.order_organization.organization_name }}</a></h5>
+{% endif %}
+{% if order_admin_ib.order_organization.services %}
+<h5 class="text-secondary">Услуги организции: {{ order_admin_ib.order_organization.services }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.order_status.status_name %}
+<h5 class="text-secondary">Статус договора: {{ order_admin_ib.order_organization.order_status.status_name }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.order_activity.activity_name %}
+<h5 class="text-secondary">Активность документа: {{ order_admin_ib.order_organization.order_activity.activity_name }}</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.document_price %}
+<h5 class="text-secondary">Стоймость: {{ order_admin_ib.order_organization.document_price }} руб.</h5>
+{% endif %}
+{% if order_admin_ib.order_organization.doc_eosdo_date %}
+<h5 class="text-secondary">Дата публикации в ЕОСДО: {{ order_admin_ib.order_organization.doc_eosdo_date }}</h5>
+{% endif %}
+
+{% if order_admin_ib.order_organization.doc_eosdo_num %}
+<h5 class="text-secondary">Номер документа в ЕОСДО: {{ order_admin_ib.order_organization.doc_eosdo_num }}</h5>
+{% endif %}
+
+{% if order_admin_ib.order_organization.doc_eosdo_link %}
+<h6 class="text-dark">
+    <a href="{{order_admin_ib.order_organization.doc_eosdo_link}}"> Документ в ЕОСДО </a>
+    </h6>
+{% endif %}
+
+
+<p>{{administrators.administrator|safe|linebreaks}}</p>
+
+<br>
+{% endblock %}

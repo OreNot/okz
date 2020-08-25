@@ -1,0 +1,21 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<a href="/orders/"><h2 class="text-info">{{ order_info.order_num }}</h2></a>
+{% if order_info.order_date %}
+<h5 class="text-secondary">Дата приказа: {{ order_info.order_date}}</h5>
+{% endif %}
+{% if order_info.order_file %}
+<h6 class="text-dark">
+    <a href="/static/{{order_info.order_file}}" download> Приказ</a>
+    </h6>
+{% endif %}
+
+{% if order_info.order_organization.organization_name %}
+<h5 class="text-secondary">Организация: <a href="/organizations/{{ order_info.order_organization.id }}">{{ order_info.order_organization.organization_name }}</a></h5>
+{% endif %}
+
+
+<br>
+{% endblock %}

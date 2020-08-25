@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ОКЗ</title>
+    {% load static %}
+     <link rel="shortcut icon" href="{% static 'mainapp/image/favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="/news">ОКЗ</a>
+        <!--<a class="navbar-brand" href="$prefix$/">UC</a>  -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+
+            <li class="nav-item">
+             <a class="nav-link" href="/news">Новости</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/operators">Операторы</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/administrators">Доверенные лица</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/organizations">База договоров</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/orders">Приказы</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/operatoranswers">Типовые ответы оператора</a>
+                </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="/instructions">Инструкции</a>
+                </li>
+        </ul>
+    </div>
+
+
+</nav>
+<div class="container mt-3">
+
+      {% block content %}
+      {% endblock %}
+</div>
+  <div class="container">
+    <img src="{% static 'mainapp/image/greenatom.png' %}" width="145" height="159" class="img-thumbnail">
+    <hr>
+    &copy; АО "Гринатом" 2020
+  </div>
+</body>
+</html>

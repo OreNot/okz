@@ -1,0 +1,68 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<script language="JavaScript">
+    function toggleSelect(elem) {
+
+    document.getElementById("submit").click();
+    }
+    </script>
+
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+
+    <div class="row">
+         <div>
+                 <div class="form-check form-check-inline mt-3 w-95 col">
+
+
+                      {{ form.organization_name }}
+
+                    </div>
+        </div>
+        <div>
+             <div class="form-group row mt-3">
+                    <div class="col-sm-1">
+                        <button type="submit" id="submit" class="btn btn-primary mb-2">фильтр</button>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+                </div>
+
+
+
+<h1 class="display-4">Доверенные лица</h1>
+<div class="jumbotron mt-3">
+
+ {% for administrator in all_administrators %}
+      {% if administrator.fio %}
+<a href="/administrators/{{ administrator.id }}"><h3>{{ administrator.fio }}</h3></a>
+    {% if administrator.admin_organization %}
+<h5>{{ administrator.admin_organization }}</h5>
+     {% endif %}
+    {% if administrator.work_telephone and administrator.work_telephone != "None"%}
+<h5>{{ administrator.work_telephone }}</h5>
+     {% endif %}
+    {% if administrator.mobile_telephone and administrator.mobile_telephone != "None" %}
+<h5>{{ administrator.mobile_telephone }}</h5>
+     {% endif %}
+    {% if administrator.email %}
+    <h5><a href="mailto:{{ administrator.email }}">{{ administrator.email }}</a></h5>
+     {% endif %}
+      {% endif %}
+    <br>
+    {% endfor %}
+
+
+<br>
+</div>
+            </form>
+        </div>
+</div>
+{% endblock %}

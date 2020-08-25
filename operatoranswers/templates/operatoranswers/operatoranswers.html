@@ -1,0 +1,13 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+
+{% for operatoranswer in object_list %}
+
+<a href="/operatoranswers/{{operatoranswer.id}}"><h3>{{ operatoranswer.answer_title }}</h3></a>
+
+{% endfor %}
+<br>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<script language="JavaScript">
+    function toggleSelect(elem) {
+
+    document.getElementById("submit").click();
+    }
+    </script>
+
+
+<div class="jumbotron mt-3">
+  <h1 class="display-4">Новости</h1>
+
+
+{% for new in object_list %}
+
+<a href="/news/{{new.id}}"><h3>{{new.new_name}}</h3></a>
+<h6>{{new.publication_date|date:"d.m.Y"}}</h6>
+<h5>{{new.description}}</h5>
+
+{% endfor %}
+
+<br>
+</div>
+{% endblock %}

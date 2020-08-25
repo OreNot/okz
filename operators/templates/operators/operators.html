@@ -1,0 +1,64 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<script language="JavaScript">
+    function toggleSelect(elem) {
+
+    document.getElementById("submit").click();
+    }
+    </script>
+
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+
+    <div class="row">
+        <div class="col-1 offset-2">
+                 <div class="form-check form-check-inline mt-3">
+
+
+                      {{ form.filial_name }}
+                    </div>
+        </div>
+        <div class="col-4 offset-1">
+             <div class="form-group row mt-3">
+                    <div class="col-sm-3">
+                        <button type="submit" hidden="true" id="submit" class="btn btn-primary mb-2">фильтр</button>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+                </div>
+
+
+
+<h1 class="display-4">Операторы</h1>
+<div class="jumbotron mt-3">
+
+ {% for operator in all_operators %}
+      {% if operator.fio %}
+<a href="/operators/{{ operator.id }}"><h3>{{ operator.fio }}</h3></a>
+    {% if operator.filial_name %}
+<h5>{{ operator.filial_name }}</h5>
+    {% endif %}
+    {% if operator.telephone %}
+<h5>{{ operator.telephone }}</h5>
+    {% endif %}
+    {% if operator.email %}
+    <h5><a href="mailto:{{ operator.email }}">{{ operator.email }}</a></h5>
+    {% endif %}
+    <br>
+      {% endif %}
+    {% endfor %}
+
+
+<br>
+</div>
+            </form>
+        </div>
+</div>
+{% endblock %}

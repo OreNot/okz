@@ -1,0 +1,10 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<h2 class="text-info">{{news.new_name}}</h2>
+<h6 class="text-info">Опубликовано: {{news.publication_date|date:"d.m.Y"}}</h6>
+<p>{{news.description|safe|linebreaks}}</p>
+
+<br>
+{% endblock %}

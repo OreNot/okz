@@ -1,0 +1,233 @@
+[
+  {
+    "model": "administrators.DLNames",
+    "pk": 1,
+    "fields": {
+      "dl_name": "Администратор безопасности"
+     }
+  },
+    {
+    "model": "administrators.DLNames",
+    "pk": 2,
+    "fields": {
+      "dl_name": "Специалист по ИБ"
+     }
+  },
+      {
+    "model": "administrators.DLNames",
+    "pk": 3,
+    "fields": {
+      "dl_name": "Руководство"
+     }
+  },
+     {
+    "model": "administrators.DLNames",
+    "pk": 4,
+    "fields": {
+      "dl_name": "Системный администратор"
+     }
+  },
+
+         {
+    "model": "administrators.DLNames",
+    "pk": 5,
+    "fields": {
+      "dl_name": "Специалист по ПО и ЗИ"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 6,
+    "fields": {
+      "dl_name": "Специалист ЭБ"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 7,
+    "fields": {
+      "dl_name": "Специалист по закупкам"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 8,
+    "fields": {
+      "dl_name": "Глава городского округа"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 9,
+    "fields": {
+      "dl_name": "Старшина ведомственной охраны"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 10,
+    "fields": {
+      "dl_name": "Юрисконсульт"
+     }
+  },
+         {
+    "model": "administrators.DLNames",
+    "pk": 11,
+    "fields": {
+      "dl_name": "Специалист по делопроизводству"
+     }
+  },
+
+         {
+    "model": "administrators.DLNames",
+    "pk": 12,
+    "fields": {
+      "dl_name": "Специалист по экспортному контролю"
+     }
+  },
+
+         {
+    "model": "administrators.DLNames",
+    "pk": 13,
+    "fields": {
+      "dl_name": "Инженер сопровождения ПО"
+     }
+  },
+
+          {
+    "model": "administrators.DLNames",
+    "pk": 14,
+    "fields": {
+      "dl_name": "Специалист по закупкам, снабжению и сбыту"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 15,
+    "fields": {
+      "dl_name": "Начальник режимно-секретного отдела"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 16,
+    "fields": {
+      "dl_name": "Директор"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 17,
+    "fields": {
+      "dl_name": "Инженер 2 категории"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 18,
+    "fields": {
+      "dl_name": "Заместитель начальника управления информатизации"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 19,
+    "fields": {
+      "dl_name": "Начальник ОИКТ"
+     }
+  },
+           {
+    "model": "administrators.DLNames",
+    "pk": 20,
+    "fields": {
+      "dl_name": "Начальник ОИКТ"
+     }
+  },
+               {
+    "model": "administrators.DLNames",
+    "pk": 21,
+    "fields": {
+      "dl_name": "Ведущий специалист ОИКТ"
+     }
+  },
+               {
+    "model": "administrators.DLNames",
+    "pk": 22,
+    "fields": {
+      "dl_name": "Ведущий специалист по защите информации"
+     }
+  },
+               {
+    "model": "administrators.DLNames",
+    "pk": 23,
+    "fields": {
+      "dl_name": "ВОтдел ИБ"
+     }
+  },
+               {
+    "model": "administrators.DLNames",
+    "pk": 24,
+    "fields": {
+      "dl_name": "Руководитель"
+     }
+  },
+               {
+    "model": "administrators.DLNames",
+    "pk": 25,
+    "fields": {
+      "dl_name": "Главный специалист"
+     }
+  },
+                   {
+    "model": "administrators.DLNames",
+    "pk": 26,
+    "fields": {
+      "dl_name": "Инженер-программист"
+     }
+  },
+
+
+
+             {
+    "model": "administrators.OrderStatuses",
+    "pk": 1,
+    "fields": {
+      "status_name": "Подписан"
+     }
+  },
+             {
+    "model": "administrators.OrderStatuses",
+    "pk": 2,
+    "fields": {
+      "status_name": "Не Подписан"
+     }
+  },
+          {
+    "model": "administrators.OrderStatuses",
+    "pk": 3,
+    "fields": {
+      "status_name": "Исключен"
+     }
+  },
+              {
+    "model": "administrators.OrderActivities",
+    "pk": 1,
+    "fields": {
+      "activity_name": "Активен"
+     }
+  },
+                 {
+    "model": "administrators.OrderActivities",
+    "pk": 2,
+    "fields": {
+      "activity_name": "Не активен"
+     }
+  },
+                    {
+    "model": "administrators.OrderActivities",
+    "pk": 3,
+    "fields": {
+      "activity_name": "Не указан"
+     }
+  }
+]

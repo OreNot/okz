@@ -1,0 +1,112 @@
+{% extends "mainapp/wrapper.html" %}
+{% load static %}
+{% block content %}
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+<div class="row">
+        <div class="col-4 offset-2">
+                 <div class="form-check form-check-inline mt-3">
+
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+
+
+                    </div>
+        </div>
+        <div class="col-2">
+             <div class="form-group row mt-3">
+
+                        <button type="submit"  id="submit" class="btn btn-primary mb-2">Отправить</button>
+
+
+                </div>
+        </div>
+<table border="1">
+   <caption>Файлы</caption>
+   <tr>
+    <th>Посмотреть</th>
+    <th>Скачать</th>
+    <th>Отправить</th>
+   </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Бланк доверенности.docx' %}">Бланк доверенности.docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Бланк доверенности.docx' %}" download="Бланк доверенности.docx">Бланк доверенности.docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Бланк доверенности.docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Бланк доверенности.pdf' %}">Бланк доверенности.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/Бланк доверенности.pdf' %}" download="Бланк доверенности.pdf">Бланк доверенности.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="Бланк доверенности.pdf" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Бланк заявления.docx' %}">Бланк заявления.docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Бланк заявления.docx' %}" download="Бланк заявления.docx">ББланк заявления.docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Бланк заявления.docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Бланк заявления.pdf' %}">Бланк заявления.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/Бланк заявления.pdf' %}" download="Бланк заявления.pdf">Бланк заявления.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="Бланк заявления.pdf" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Бланк заявления на аннулирование.pdf' %}">Бланк заявления на аннулирование.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/Бланк заявления на аннулирование.pdf' %}" download="Бланк заявления на аннулирование.pdf">Бланк заявления на аннулирование.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="Бланк заявления на аннулирование.pdf" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Инструкция по загрузке документов в ЕОСДО.pdf' %}">Инструкция по загрузке документов в ЕОСДО.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/Инструкция по загрузке документов в ЕОСДО.pdf' %}" download="Инструкция по загрузке документов в ЕОСДО.pdf">Инструкция по загрузке документов в ЕОСДО.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="Инструкция по загрузке документов в ЕОСДО.pdf" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Инструкция по получению облачного сертификата УКЭП.docx' %}">Инструкция по получению облачного сертификата УКЭП.docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Инструкция по получению облачного сертификата УКЭП.docx' %}" download="Инструкция по получению облачного сертификата УКЭП.docx">Инструкция по получению облачного сертификата УКЭП.docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Инструкция по получению облачного сертификата УКЭП.docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Инструкция по получению сертификатов (полная).docx' %}">Инструкция по получению сертификатов (полная).docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Инструкция по получению сертификатов (полная).docx' %}" download="Инструкция по получению сертификатов (полная).docx">Инструкция по получению сертификатов (полная).docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Инструкция по получению сертификатов (полная).docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/исх о перевыпуске сертифкатов УЦ.pdf' %}">исх о перевыпуске сертифкатов УЦ.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/исх о перевыпуске сертифкатов УЦ.pdf' %}" download="исх о перевыпуске сертифкатов УЦ.pdf">исх о перевыпуске сертифкатов УЦ.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="исх о перевыпуске сертифкатов УЦ.pdf" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx' %}">Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx' %}" download="Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx">Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Описание процесса создания запроса на сертификат DSS (вход по сертификату).docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Описание процесса создания пользователей DSS (вход по сертификату).docx' %}">Описание процесса создания пользователей DSS (вход по сертификату).docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Описание процесса создания пользователей DSS (вход по сертификату).docx' %}" download="Описание процесса создания пользователей DSS (вход по сертификату).docx">Описание процесса создания пользователей DSS (вход по сертификату).docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Описание процесса создания пользователей DSS (вход по сертификату).docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Пошаговая схема.docx' %}">Пошаговая схема.docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Пошаговая схема.docx' %}" download="Пошаговая схема.docx">Пошаговая схема.docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Пошаговая схема.docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Пошаговая схема для МСК.docx' %}">Пошаговая схема для МСК.docx</a></td>
+        <td><a href="{% static 'mainapp/docs/Пошаговая схема для МСК.docx' %}" download="Пошаговая схема для МСК.docx">Пошаговая схема для МСК.docx</a></td>
+        <td><input type="checkbox" name="checks[]" value="Пошаговая схема для МСК.docx" /></td>
+    </tr>
+    <tr>
+        <td><a link rel="stylesheet"  target="_blank" href="{% static 'mainapp/docs/Прил_7_дов.дов.pdf' %}">Прил_7_дов.дов.pdf</a></td>
+        <td><a href="{% static 'mainapp/docs/Прил_7_дов.дов.pdf' %}" download="Прил_7_дов.дов.pdf">Прил_7_дов.дов.pdf</a></td>
+        <td><input type="checkbox" name="checks[]" value="Прил_7_дов.дов.pdf.docx" /></td>
+    </tr>
+
+
+</table>
+</div>
+                </div>
+            </form>
+        </div>
+</div>
+
+{% endblock %}
