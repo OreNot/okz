@@ -1,26 +1,20 @@
 import os
-from email.mime.application import MIMEApplication
-from os.path import basename
-
-from django.shortcuts import render
-from django.http import HttpResponse, request
-# Create your views here.
-
-# Create your views here.
-
-from datetime import datetime
-from datetime import date
 import smtplib
+from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from os.path import basename
 from typing import List
-from okz.settings import STATIC_DIR
+
+from django.shortcuts import render
+
+from okz.settings import STATIC_DIR, STATIC_DOCS_DIR
+
+
+# Create your views here.
+# Create your views here.
 
 # here I want the /static/image.jpg file then
-
-import time
-
-import psycopg2
 
 def send_mail(
         sender,
@@ -67,13 +61,11 @@ def instrictions(request):
             file_list=[]
             files = request.POST.getlist('checks[]')
             for file in files:
-                file = os.path.join(STATIC_DIR, file)
+                file = os.path.join(STATIC_DOCS_DIR, file)
                 file_list.append(file)
-            print(files)
             email = request.POST['email']
-            print(email)
-            send_mail('sep@rosatom.ru', email, files,
-                      'Добрый день!\nВо вложении следующие файлы '+ files,
+            send_mail('sep@rosatom.ru', email, ', '.join(files),
+                      'Добрый день!\nВо вложении следующие файлы: \n' + ', '.join(files),
                       file_list
                       )
 

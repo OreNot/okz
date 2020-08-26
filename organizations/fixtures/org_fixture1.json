@@ -1,0 +1,3557 @@
+[
+{
+    "model": "organizations.Organizations",
+    "pk": 1,
+    "fields": {
+        "organization_name": "ЗАО \"ЦЕСИС НИКИРЭТ\"",
+        "area": "58 Пензенская область",
+        "city": "город Пенза",
+        "adress": "ул. Чаадаева, д. 62",
+        "OGRN": "1025801363202",
+        "INN": "005836616881",
+        "email_domain": "@cesis.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 2,
+    "fields": {
+        "organization_name": "ООО \"КАТОДНЫЕ МАТЕРИАЛЫ\"",
+        "adress": "шоссе Каширское, д. 49",
+        "OGRN": "1115476103698",
+        "INN": "005410043399"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 3,
+    "fields": {
+        "full_organization_name": "Общество с ограниченной ответственностью \"АРМЗ Горные машины\"",
+        "area": "52 Нижегородская область",
+        "city": "село Итманово",
+        "adress": "ул. Грошовка, д. 4",
+        "OGRN": "1025201099032",
+        "INN": "005213000558"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 4,
+    "fields": {
+        "organization_name": "АО \"АТОМКОМПЛЕКТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Полянка, д. 25, стр. 1",
+        "OGRN": "1107746480490",
+        "INN": "007706738770"
+		}
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 5,
+    "fields": {
+        "organization_name": "АО \"Хиагда\"",
+        "area": "75 Забайкальский край",
+        "city": "город Чита",
+        "adress": "ул. Чайковского, д. 27",
+        "OGRN": "1020300523308",
+        "INN": "000302001219"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 6,
+    "fields": {
+        "organization_name": "Частное учреждение \"НАУКА И ИННОВАЦИИ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, дом 24",
+        "OGRN": "1197700010485",
+        "INN": "009706001411"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 7,
+    "fields": {
+        "organization_name": "АО \"РУСАТОМ ОВЕРСИЗ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Ленинская Слобода, дом 26",
+        "OGRN": "5177746397219",
+        "INN": "007725413350"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 8,
+    "fields": {
+        "organization_name": "ООО \"ТЕЛЕКОМ ГХК\"",
+        "area": "24 Красноярский край",
+        "city": "город Железногорск",
+        "adress": "ул. Школьная, дом 39",
+        "OGRN": "1122452000725",
+        "INN": "002452201651",
+        "email_domain": "@atomlink.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 9,
+    "fields": {
+        "organization_name": "ООО \"РУСАТОМ КАРГО\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, дом 24",
+        "OGRN": "1197746399894",
+        "INN": "009706000986"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 10,
+    "fields": {
+        "organization_name": "ФГУП МОКБ \"МАРС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "переулок Щемиловский 1-Й, дом 16",
+        "OGRN": "1027739113654",
+        "INN": "007707058167",
+        "email_domain": "obp@mokb-mars.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 11,
+    "fields": {
+        "organization_name": "АО \"ГСПИ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Шарикоподшипниковская, д.4, к.1а",
+        "OGRN": "1097746129447",
+        "INN": "007708697977",
+        "email_domain": "@aogspi.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 12,
+    "fields": {
+        "organization_name": "АО \"АТОМЭНЕРГОРЕМОНТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "пр. Проектируемый 4062-й, д. 6, стр. 2",
+        "OGRN": "1085029002079",
+        "INN": "005029112443"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 13,
+    "fields": {
+        "branch": "Филиал АО \"АТОМЭНЕРГОРЕМОНТ\" - \"Смоленскатомэнергоремонт",
+        "area": "67 Смоленская область",
+        "city": "город Десногорск",
+        "adress": "Ком.-скл. зона, а/я 33",
+        "OGRN": "1085029002079",
+        "INN": "005029112443"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 14,
+    "fields": {
+        "branch": "Филиал АО \"АТОМЭНЕРГОРЕМОНТ\" - \"Балаковоатомэнергоремонт",
+        "area": "64 Саратовская область",
+        "city": "село Натальино",
+        "adress": "ул. Придорожная, д. 41А",
+        "OGRN": "1085029002079",
+        "INN": "005029112443"
+		}
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 15,
+    "fields": {
+        "organization_name": "АО \"ВНИИХТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Каширское шоссе, д.33",
+        "OGRN": "5087746165910",
+        "INN": "007724675770",
+        "email_domain": "@vniiht.ru, @okhtz.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 16,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" Дир. строящ. Воронежской АС",
+        "area": "36 Воронежская область",
+        "city": "город Воронеж",
+        "adress": "ул. Острогожская, д.151",
+        "OGRN": "5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 17,
+    "fields": {
+        "organization_name": "АО \"ЦПТИ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Каширское ш., д. 49, стр. 74",
+        "OGRN": "1117746127190",
+        "INN": "007724779465"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 18,
+    "fields": {
+        "organization_name": "АО НПФ \"Атомгарант\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б.Андроньевская, дом 23, стр. 1",
+        "OGRN": "1187700014150",
+        "INN": "009709035592",
+        "email_domain": "@npf-atom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 19,
+    "fields": {
+        "organization_name": "АО НПФ \"Атомфонд\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б.Андроньевская, дом 23, стр. 1",
+        "OGRN": "1157700011347",
+        "INN": "009705044518",
+        "email_domain": "@atomfond.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 20,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Атомэнергопромсбыт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Озерковская наб., д. 28, стр. 3",
+        "OGRN": "1147746520767",
+        "INN": "007725828549",
+        "email_domain": "@apsbt.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 21,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"ДАЛУР\"",
+        "area": "45 Курганская область",
+        "city": "село Уксянское",
+        "adress": "ул. Ленина, дом 42",
+        "OGRN": "1024501452140",
+        "INN": "004506004751"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 22,
+    "fields": {
+        "organization_name": "ООО \"РусАТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Каширское шоссе, д. 49",
+        "OGRN": "5177746230547",
+        "INN": "007724424381"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 23,
+    "fields": {
+        "organization_name": "АО \"ПРЕПРЕГ-СКМ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Волгоградский пр. 42, корп. 8",
+        "OGRN": "1097746268234",
+        "INN": "007729632610",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 24,
+    "fields": {
+        "organization_name": "ООО \"СМУ № 1\"",
+        "area": "77 г. Москва, 61 Ростовская область, 46 Курская область",
+        "city": "город Москва, город Волгодонск, город Курчатов",
+        "adress": "Научный проезд, д.17, пом. 32, СЗ дирекции ВоАЭС, пом. 27, ул. Молодежная, дом 9, пом. 5",
+        "OGRN": "1085260013189",
+        "INN": "005260234539",
+        "email_domain": "@smu-n1.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 25,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Промышленные инновации\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "1-Нагатинский пр., д. 10, стр. 1",
+        "OGRN": "1047796861793",
+        "INN": "007725524660",
+        "email_domain": "@prominn.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 26,
+    "fields": {
+        "branch": "Филиал АО \"Гринатом\" в г. Н.Новгород",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "Проспект Ленина, д.93",
+        "OGRN": "1097746819720",
+        "INN": "007706729736",
+        "email_domain": "@greenatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 27,
+    "fields": {
+        "organization_name": "Частное учреждение \"СКЦ Росатома\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, д.24",
+        "OGRN": "1167700076741",
+        "INN": "007706445460",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 28,
+    "fields": {
+        "branch": "Филиал СЗТО ФГУП \"РосРАО",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул. Арсенальная, д.1 корп.2, ул. Седова, д. 11, корп.2, л.А, ул. Седова, д.11, к. 2, лит А",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@rosrao.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 29,
+    "fields": {
+        "organization_name": "АО ИК \"АСЭ\"",
+        "branch": "Московский филиал АО ИК \"АСЭ",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Дмитровское шоссе, д.2, стр.1",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 30,
+    "fields": {
+        "branch": "Московский филиал АО \"НИАЭП",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Дмитровское шоссе, д.2, стр.1",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@atomstroyexport.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 31,
+    "fields": {
+        "branch": "Московский филиал АО ИК \"АСЭ",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Дмитровское шоссе, д.2, стр.1",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 32,
+    "fields": {
+        "organization_name": "АО Нижегородский институт \"Атомэнергопроект\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "площадь Свободы, д.3",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 33,
+    "fields": {
+        "branch": "Филиал ФГУП \"НИФХИ им. Л.Я.Карпова",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "Киевское шоссе, 109 км",
+        "OGRN": "1037739715155",
+        "INN": "007709093230",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 34,
+    "fields": {
+        "organization_name": "АО \"Атомредметзолото\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Большой Дровяной пер., д.22",
+        "OGRN": "1027700043645",
+        "INN": "007706016076",
+        "email_domain": "@armz.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 35,
+    "fields": {
+        "organization_name": "ФГУП \"Базальт\"",
+        "branch": "Филиал ФГУП \"ПО \"Маяк\"-\"Базальт, Федеральное государственное унитарное предприятие \"Базальт",
+        "area": "64 Саратовская область",
+        "city": "поселок Расково",
+        "adress": "Вольский тракт, 4",
+        "OGRN": "1026401176592",
+        "INN": "006432003698",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 36,
+    "fields": {
+        "organization_name": "АО \"Управление административными зданиями\"",
+        "full_organization_name": "Акционерное общество \"Управление административными зданиями\"",
+        "area": "77 г.Москва",
+        "city": "город Москва",
+        "adress": "ул.Большая Ордынка, д.24, Нагорный пр-зд, д. 7, стр. 1, оф. 716, Старомонетный пер., д.26",
+        "OGRN": "5137746211290",
+        "INN": "007706804447",
+        "email_domain": "@domatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 37,
+    "fields": {
+        "branch": "Московский филиал АО \"НИАЭП",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Дмитровское шоссе д.2, стр.1",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@atomstroyexport.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 38,
+    "fields": {
+        "organization_name": "ООО \"Центр высокотехнологической диагностики\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Варшавское шоссе, 46",
+        "OGRN": "1147746752064",
+        "INN": "007726750415",
+        "email_domain": "@uicorp.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 39,
+    "fields": {
+        "organization_name": "АО \"Атомстройэкспорт\", АО АСЭ",
+        "full_organization_name": "Акционерное общество \"Атомстройэкспорт\"",
+        "area": "77 г. Москва, 52 Нижегородская область",
+        "city": "город Москва, город Нижний Новгород",
+        "adress": "Дмитровское шоссе, д.2, стр.1, Площадь Свободы, д.3",
+        "OGRN": "1027739496014",
+        "INN": "007701186067",
+        "email_domain": "@niaep.ru, @atomstroyexport.ru, @ase-ec.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 40,
+    "fields": {
+        "organization_name": "ФГУП \"РФЯЦ-ВНИИТФ им. академ. Е.И. Забабахина\"",
+        "area": "74 Челябинская область",
+        "city": "город Снежинск",
+        "adress": "ул. Васильева, дом 13",
+        "OGRN": "1027401350932",
+        "INN": "007423000572",
+        "email_domain": "@vniitf.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 41,
+    "fields": {
+        "organization_name": "ОАО \"АСЭ-Инжиниринг\"",
+        "area": "",
+        "city": "",
+        "adress": "ул.Дербеневская, д.3",
+        "OGRN": "5087746093067",
+        "INN": "007705856636"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 42,
+    "fields": {
+        "organization_name": "АО \"Атомтехэнерго\"",
+        "branch": "Смоленскатомтехэнерго, НВАТЭ",
+        "area": "50 Московская область, 36 Воронежская область, 77 г. Москва",
+        "city": "город Москва, город Мытищи, город Нововоронеж",
+        "adress": "ул. Коммунистическая, д. 23, Проектируемый проезд №4062, д.6, стр. 2, пр. Проектируемый 4062-й, д.6, стр. 2, ул. Южное шоссе, д. 1",
+        "OGRN": "1075029010187",
+        "INN": "005029106714",
+        "email_domain": "e-mail: rate@atech.ru, smutc@atech.ru, @smolate.ru, @nvate.ru, @roate.ru, @klnate.ru, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 43,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Альянстрансатом\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Нагатинская 4а",
+        "OGRN": "1057749068002",
+        "INN": "007724560930",
+        "email_domain": "@oaoata.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 44,
+    "fields": {
+        "organization_name": "АО \"Концерн Росэнергоатом\"",
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Нововоронежская АЭС",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "Промышленная зона Южная, 1, ул. зона Южная промышленная, 1",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@nvnpp1.rosenergoatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 45,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" РК",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Холодильный переулок,3а,корп.2, ул. Ферганская, д. 25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 46,
+    "fields": {
+        "organization_name": "АО \"НИИграфит\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Электродная, дом 2",
+        "OGRN": "1117746574593",
+        "INN": "007720723422",
+        "email_domain": "Niigrafit@niigrafit.org, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 47,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Белоярская атомная станция\"",
+        "area": "66 Свердловская область",
+        "city": "город Заречный",
+        "adress": "Промплощадка",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@belnpp.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 48,
+    "fields": {
+        "organization_name": "подразделение: \"НИКИРЭТ\"-ф-л ФГУП ФНПЦ \"ПО Старт\"им.М.В.Проценко, ФГУП ФНЦП \"ПО \"Старт\" им. М.В.Проценко\"",
+        "area": "58 Пензенская область",
+        "city": "город Заречный",
+        "adress": "Проспект Мира, дом 1",
+        "OGRN": "1025801496808",
+        "INN": "005838000953",
+        "email_domain": "@nikiret.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 49,
+    "fields": {
+        "organization_name": "АО \"ТЕНЕКС-Логистика\"",
+        "full_organization_name": "Акционерное общество \"ТЕНЕКС-Логистика\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул. Кораблестроителей, д. 16/2",
+        "OGRN": "1067746180061",
+        "INN": "007706607400",
+        "email_domain": "@tenex-logistics.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 50,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Курская атомная станция\"",
+        "area": "46 Курская область",
+        "city": "город Курчатов",
+        "adress": "Промзона, АБК-1",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@kur2.rosenergoatom.ru, @kunpp.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 51,
+    "fields": {
+        "organization_name": "ФГУП \"АТЦ СПБ\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "3-й Верхний переулок, дом 2",
+        "OGRN": "1027801552790",
+        "INN": "007802145892",
+        "email_domain": "@nwatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 52,
+    "fields": {
+        "organization_name": "АО \"ЦентрАтом\"",
+        "full_organization_name": "Акционерное общество \"ЦентрАтом\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Радио 24, корп.2, \tКаширское шоссе, д. 49, стр. 61",
+        "OGRN": "1097746462637",
+        "INN": "007706723156",
+        "email_domain": "@centeratom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 53,
+    "fields": {
+        "organization_name": "АО \"ГНЦ НИИАР\""
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 54,
+    "fields": {
+        "organization_name": "ФГУП \"КБ АТО\"",
+        "area": "73 Ульяновская область",
+        "city": "город Димитровград",
+        "adress": "Западное шоссе, д. 9, Хлебозаводская, 2",
+        "OGRN": "1087302001797,  1025003519727",
+        "INN": "007302040242, 005029008957",
+        "email_domain": "@niiar.ru, @kbato.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 55,
+    "fields": {
+        "organization_name": "ООО \"Нововоронежская АЭС-Сервис\"",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": " ул.Мира, д.8а",
+        "OGRN": "1093668044513",
+        "INN": "003654008608",
+        "email_domain": "@mail.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 56,
+    "fields": {
+        "organization_name": "Дирекция строящейся Курской АЭС-2",
+        "area": "46 Курская область",
+        "city": "город Курчатов",
+        "adress": "промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@kunpp.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 57,
+    "fields": {
+        "organization_name": "АО \"ТЕНЕКС-Сервис\"",
+        "full_organization_name": "Акционерное общество \"ТЕНЕКС-Сервис\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б.Полянка, д.25, стр.1, ул. Большая Полянка, д.25, стр.1",
+        "OGRN": "1057749591855",
+        "INN": "007706604582",
+        "email_domain": "@atomleasing.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 58,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Смоленская атомная станция",
+        "area": "67 Смоленская область",
+        "city": "город Десногорск",
+        "adress": "Промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@saes.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 59,
+    "fields": {
+        "organization_name": "ООО \"Нововоронежская АЭС-Авто\"",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "ул. Вокзальная, дом 2а",
+        "OGRN": "1093668017222",
+        "INN": "003651008478"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 60,
+    "fields": {
+        "organization_name": "ООО \"ВдМУ\"",
+        "area": "61 Ростовская область",
+        "city": "город Волгодонск-28",
+        "adress": "зд. 143 по ГП стройбазы РоАЭС",
+        "OGRN": "1076143003826",
+        "INN": "006143066681",
+        "email_domain": "vdmu@vdmu.org, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 61,
+    "fields": {
+        "organization_name": "ФГУП \"Атомфлот\"",
+        "branch": "Федеральное государственное унитарное предприятие атомного флот",
+        "area": "51 Мурманская область",
+        "city": "город Мурманск",
+        "adress": "Мурманск-17",
+        "OGRN": "1025100864117",
+        "INN": "005192110268"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 62,
+    "fields": {
+        "organization_name": "АО \"АЭМ-технологии\"",
+        "full_organization_name": "Акционерное общество \"АЭМ-технологии\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул. Финляндская, д. 7",
+        "OGRN": "1079847125522",
+        "INN": "007817311895"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 63,
+    "fields": {
+        "branch": "Филиал АО \"АЭМ-технологии\" \"Атоммаш\" в г.Волгодонск",
+        "area": "61 Ростовская область",
+        "city": "город Волгодонск",
+        "adress": "Жуковское шоссе 10",
+        "OGRN": "1079847125522",
+        "INN": "007817311895",
+        "email_domain": "@atommash.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 64,
+    "fields": {
+        "organization_name": "АО \"НИКИМТ-Атомстрой\"",
+        "full_organization_name": "Акционерное общество \"НИКИМТ-Атомстрой\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Алтуфьевское ш., д.43, стр.2",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@atomrus.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 65,
+    "fields": {
+        "organization_name": "АО \"Русатом Сервис\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Ленинский проспект, д.15А",
+        "OGRN": "1117746845523",
+        "INN": "007705966318",
+        "email_domain": "@rusatomservice.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 66,
+    "fields": {
+        "organization_name": "ОАО \"Вента\"",
+        "area": "66 Свердловская область",
+        "city": "город Нижняя Тура",
+        "adress": "ул.Малышева, дом 2а",
+        "OGRN": "1026601483556",
+        "INN": "006624002377",
+        "email_domain": "@venta-nt.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 67,
+    "fields": {
+        "organization_name": "АО \"Гиредмет\"",
+        "full_organization_name": "Акционерное общество \"Гиредмет\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Б. Толмачевский пер, дом 5, стр. 1, ул. Электродная д. 2, стр. 1, ул. Электродная 2с1, Электродная ул. дом 2 стр. 1, Электродная ул.,2",
+        "OGRN": "5087746203353",
+        "INN": "007706699062",
+        "email_domain": "@giredmet.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 68,
+    "fields": {
+        "organization_name": "АО \"ДЕЗ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "адерс: Большая Полянка,д.25,стр.1, ул. Большая Полянка 25 стр.1",
+        "OGRN": "1097746833282",
+        "INN": "007706730001",
+        "email_domain": "@atomenergoprom.ru, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 69,
+    "fields": {
+        "organization_name": "ФГУП \"РосРАО\"",
+        "area": "77 г. Москва, 64 Саратовская область",
+        "city": "город Москва, город Саратов",
+        "adress": "ул. Большая Ордынка, д. 24, Большая Ордынка, д. 24, ул. Верхняя, дом 17, Пыжевский переулок, д.6",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@rosrao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 70,
+    "fields": {
+        "organization_name": "ФГУП ФНПЦ \"ПО Старт\" им. М.В.Проценко\"",
+        "area": "58 Пензенская область",
+        "city": "город Заречный",
+        "adress": "проспект Мира, дом 1",
+        "OGRN": "1025801496808",
+        "INN": "005838000953",
+        "email_domain": "@startatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 71,
+    "fields": {
+        "organization_name": "АО \"ГНЦ РФ-ФЭИ\"",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "пл. Бондаренко, д.1",
+        "OGRN": "1154025000590",
+        "INN": "004025442583",
+        "email_domain": "@ippe.ru, ovr-buh@ippe.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 72,
+    "fields": {
+        "organization_name": "ООО \"АРМЗ Сервис\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"АРМЗ Сервис\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Большой Дровяной пер д.12с3",
+        "OGRN": "1087746628903",
+        "INN": "007708671295",
+        "email_domain": "@armz-service.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 73,
+    "fields": {
+        "organization_name": "АО НПО \"ЦНИИТМАШ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Шарикоподшипниковская ул., д.4",
+        "OGRN": "1067746376070",
+        "INN": "007723564851",
+        "email_domain": "@cniitmash.com, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 74,
+    "fields": {
+        "organization_name": "Госкорпорация \"Росатом\"",
+        "full_organization_name": "Государственная корпорация по атомной энергии \"Росатом\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б. Ордынка, д. 24, ул. Большая Ордынка, дом 24",
+        "OGRN": "1077799032926",
+        "INN": "007706413348",
+        "email_domain": "@akkuyu.com, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 75,
+    "fields": {
+        "organization_name": "ФГУП УЭМЗ",
+        "area": "66 Свердловская область",
+        "city": "город Екатеринбург",
+        "adress": "Студенческая, 9",
+        "OGRN": "1026604973120",
+        "INN": "006608004641",
+        "email_domain": "@uemz.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 76,
+    "fields": {
+        "branch": "СЗЦ \"СевРАО\" - филиал ФГУП \"РосРАО",
+        "area": "51 Мурманская область",
+        "city": "ЗАТО Александровск, город Заозерск, город Островной, город Мурманск",
+        "adress": "н.п. Сайда Губа, ул. Чумаченко, дом 10, пл. Якорная д.1, ул. Лобова, дом 100",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@gk.rosatom.local, @aspol.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 77,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Билибинская атомная станция",
+        "area": "87 Чукотский автономный округ",
+        "city": "город Билибино, город Билибино",
+        "adress": "ул. Ферганская, д. 25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@chukotka.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 78,
+    "fields": {
+        "branch": "ДВЦ \"ДальРАО\" - филиал ФГУП \"РосРАО",
+        "area": "25 Приморский край",
+        "city": "город Владивосток",
+        "adress": "ул. 1-Я Флотская, д. 39А",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@rosrao.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 79,
+    "fields": {
+        "organization_name": "АО \"ГНЦ НИИАР\"",
+        "area": "73 Ульяновская область",
+        "city": "город Димитровград",
+        "adress": "Западное шоссе, д. 9",
+        "OGRN": "1087302001797",
+        "INN": "007302040242",
+        "email_domain": "@niiar.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 80,
+    "fields": {
+        "organization_name": "ФГУП \"НО РАО\"",
+        "branch": "Филиал \"Железногорский, Филиал \"Димитровградский, Филиал \"Северский, Отделение \"Новоуральское",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Пятницкая, д.49а, стр.2",
+        "OGRN": "1027739034344",
+        "INN": "005838009089, 006181507950",
+        "email_domain": "ANStryzhakov@norao.ru, @gk.rosatom.local, PNFlegontov@norao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 81,
+    "fields": {
+        "organization_name": "АО \"ЛЦ ЯТЦ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б. Полянка д. 25, стр.1, Пыжевский пер., д.5, Каширское шоссе, д. 33, с. 18",
+        "OGRN": "1137746991821",
+        "INN": "007706801975",
+        "email_domain": "@fcnrs.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 82,
+    "fields": {
+        "organization_name": "АО \"Гринатом\"",
+        "full_organization_name": "Акционерное общество \"Гринатом\"",
+        "branch": "Филиал АО \"Гринатом\" в г. Нижний Новгоро",
+        "area": "77 г. Москва, 52 Нижегородская область",
+        "city": "город Москва, город Нижний Новгород",
+        "adress": "ул. Большая Ордынка, дом 24, ул. Б. Ордынка, д. 24, Пр-кт Стачек, дом 47, литер Л, 1-й Нагатинский проезд, д.10, Проспект Ленина дом 93",
+        "OGRN": "1097746819720",
+        "INN": "007706729736, 003869379111",
+        "email_domain": "telecom@greenatom.ru, DBRomanov@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 83,
+    "fields": {
+        "organization_name": "Обособленное подразделение сервисный центр АО \"Гринатом\"",
+        "area": "51 Мурманская область",
+        "city": "город Мурманск",
+        "adress": "Кольский проспект, дом 10",
+        "OGRN": "1097746819720",
+        "INN": "007706729736"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 84,
+    "fields": {
+        "organization_name": "СЦ ОП АО \"Гринатом\" в г. Димитровграде",
+        "area": "73 Ульяновская область",
+        "city": "город Димитровград",
+        "adress": "Западное шоссе, д. 9",
+        "OGRN": "1097746819720",
+        "INN": "007706729736"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 85,
+    "fields": {
+        "organization_name": "ОП АО \"Гринатом\" СЦ в г. Краснокаменске",
+        "area": "75 Забайкальский край",
+        "city": "город Краснокаменск",
+        "adress": "ул. Октябрьская, дом 8",
+        "OGRN": "1097746819720",
+        "INN": "007706729736"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 86,
+    "fields": {
+        "organization_name": "ФГУП \"ПСЗ\", Отдел 23 ФГУП \"ПСЗ\"",
+        "area": "74 Челябинская область",
+        "city": "город Трехгорный",
+        "adress": "Заречная 13",
+        "OGRN": "1027400661650",
+        "INN": "007405000428",
+        "email_domain": "@imf.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 87,
+    "fields": {
+        "organization_name": "АО \"ОТЭК\"",
+        "full_organization_name": "Акционерное общество \"Объединенная теплоэнергетическая компания\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Погорельский переулок, д. 7, стр. 2"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 88,
+    "fields": {
+        "branch": "АО \"ОТЭК\" филиал в г. Краснокаменск",
+        "area": "75 Забайкальский край",
+        "city": "город Краснокаменск",
+        "adress": "",
+        "OGRN": "1117746439480",
+        "INN": "007706757331",
+        "email_domain": "@oao-otek.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 89,
+    "fields": {
+        "organization_name": "ОАО \"ДЕЗ\"",
+        "area": "77 г.Москва",
+        "city": "город Москва",
+        "adress": "ул.Большая Полянка,д.25,стр.1",
+        "OGRN": "1097746833282",
+        "INN": "007706730001",
+        "email_domain": "@atomenergoprom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 90,
+    "fields": {
+        "organization_name": "АО \"ВНИИХТ\", ОХТЗ АО \"ВНИИХТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Каширское шоссе, д.33",
+        "OGRN": "5087746165910",
+        "INN": "007724675770",
+        "email_domain": "@vniiht.ru, @okhtz.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 91,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Ростовская атомная станция",
+        "area": "61 Ростовская область",
+        "city": "город Волгодонск",
+        "adress": "Волгодонск-28",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@vdnpp.rosenergoatom.ru, @rosnpp.org.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 92,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Балаковская атомная станция",
+        "area": "64 Саратовская область",
+        "city": "город Балаково",
+        "adress": "Промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@balaes.ru, @balnps.rosenergoatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 93,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция на Курской АЭ",
+        "area": "46 Курская область",
+        "city": "город Курчатов",
+        "adress": "Промзона Курской АЭС, а/я 26",
+        "OGRN": "5087746235836",
+        "INN": "007715719854"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 94,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция на Смоленской АЭ",
+        "area": "67 Смоленская область",
+        "city": "",
+        "adress": "г. Десногорск промзона САЭС",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@atomrus.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 95,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция в г. Димитровград",
+        "area": "73 Ульяновская область",
+        "city": "город Димитровград",
+        "adress": "ул. Юнг Северного флота, д. 20",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@atomrus.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 96,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция в г. Нововороне",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "ул. Курчатова, д. 2б",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@atomrus.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 97,
+    "fields": {
+        "organization_name": "ФГУП \"ФНПЦ НИИИС им. Ю.Е. Седакова\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "ул.Тропинина, д.47",
+        "OGRN": "1025203569203",
+        "INN": "005261000011",
+        "email_domain": "@niiis.nnov.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 98,
+    "fields": {
+        "organization_name": "Башкирская АЭС",
+        "area": "02 Республика Башкортостан",
+        "city": "город Агидель",
+        "adress": "Цветочный бульвар, д.5",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@ufamts.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 99,
+    "fields": {
+        "branch": "филиал \"Приволжский территориальный округ\" ФГУП \"РосРАО",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "Московское шоссе, 302А",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@rosrao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 100,
+    "fields": {
+        "branch": "СЗЦ \"СевРАО\" - филиал ФГУП \"РосРАО",
+        "area": "51 Мурманская область",
+        "city": "город Мурманск, город Заозерск",
+        "adress": "ул. Лобова, дом 100, ул. Чумаченко, дом 10",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "sevrao1@mail.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 101,
+    "fields": {
+        "branch": "Филиал ОАО \"Концерн Росэнергоатом\" НТЦ АТ",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Ферганская д.25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@rosenergoatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 102,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Кольская атомная станция",
+        "area": "51 Мурманская область",
+        "city": "город Полярные Зори",
+        "adress": "Кольская АЭС",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@kolatom.murmansk.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 103,
+    "fields": {
+        "organization_name": "ООО \"Кольская АЭС-Авто\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"Кольская АЭС-Авто\"",
+        "area": "51 Мурманская область",
+        "city": "город Полярные Зори",
+        "adress": "ул. Промышленная, д. 7/2",
+        "OGRN": "1095103000200",
+        "INN": "005117065288",
+        "email_domain": "@kolatomavto.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 104,
+    "fields": {
+        "organization_name": "ООО \"Кольская АЭС-Сервис\"",
+        "area": "51 Мурманская область",
+        "city": "город Полярные Зори",
+        "adress": "ул. Ломоносова, д. 1",
+        "OGRN": "1105103000111",
+        "INN": "005117065560",
+        "email_domain": "@kaes-s.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 105,
+    "fields": {
+        "organization_name": "АО \"Концерн Росэнергоатом\"",
+        "area": "77 г. Москва, 36 Воронежская область",
+        "city": "город Москва, город Нововоронеж",
+        "adress": "ул. Ферганская, дом 25, улица Ферганская дом 25, Ферганская ул., д. 25, ул. Промышленная зона Южная 1, Холодильный пер., д. 3А",
+        "OGRN": "5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 106,
+    "fields": {
+        "full_organization_name": "Общество с ограниченной ответственностью \"АтомТеплоСбыт\"",
+        "email_domain": "@rosenergoatom.ru, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 107,
+    "fields": {
+        "organization_name": "АО \"Трансэнерго\"",
+        "area": "74 Челябинская область",
+        "city": "город Снежинск",
+        "adress": "ул.Транспортная, 44",
+        "OGRN": "1087423000719",
+        "INN": "007423023178",
+        "email_domain": "@te.snz.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 108,
+    "fields": {
+        "organization_name": "АО \"НИИЭФА им. Д.В. Ефремова\"",
+        "full_organization_name": "Акционерное общество \"НИИЭФА им. Д.В.Ефремова\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "поселок Металлострой",
+        "adress": "дорога на Металлострой, дом 3",
+        "OGRN": "1137847503067",
+        "INN": "007817331468",
+        "email_domain": "@sintez.niiefa.spb.su"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 109,
+    "fields": {
+        "organization_name": "ООО \"Объединенная Инновационная Корпорация\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"ОИК\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б.Ордынка, д.24, ул. Большая Ордынка, дом 24",
+        "OGRN": "1117746136749",
+        "INN": "007706751361"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 110,
+    "fields": {
+        "organization_name": "АО \"НПК \"Дедал\"",
+        "full_organization_name": "Акционерное общество \"НПК \"Дедал\", Акционерное общество \"Научно-производственный комплекс \"Дедал\"",
+        "area": "50 Московская область",
+        "city": "город Дубна",
+        "adress": "ул. Жолио-Кюри, д. 20, стр. 41, ул. Промышленная, д.8",
+        "OGRN": "1085010000151",
+        "INN": "005010036460",
+        "email_domain": "@uicorp.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 111,
+    "fields": {
+        "organization_name": "ПАО \"Энергоспецмонтаж\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Бойцовая, 27",
+        "OGRN": "1027739052912",
+        "INN": "007718083574",
+        "email_domain": "fsz@ensm.ru, umiat@ensm.ru, vusesm@ensm.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 112,
+    "fields": {
+        "organization_name": "Дирекция строящейся Нововоронежской АЭС-2",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "Промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@nvaes-2.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 113,
+    "fields": {
+        "organization_name": "ФГУП \"РАДОН\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "7-ой Ростовский пер., 2/14",
+        "OGRN": "1037739303612",
+        "INN": "007704009700",
+        "email_domain": "erp@radon.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 114,
+    "fields": {
+        "organization_name": "АО \"НИФХИ им. Л.Я. Карпова\"",
+        "branch": "Отдел правового обеспечения филиала АО \"НИФХИ им. Л.Я.Карпова",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "Пер.Обуха, д.3-1/12  , Киевское шоссе, д.6",
+        "OGRN": "5137746240979",
+        "INN": "007709944065",
+        "email_domain": "@nifhi.ru, @karpovipc.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 115,
+    "fields": {
+        "branch": "Филиал \"Приволжский территориальный округ\" ФГУП \"РосРАО",
+        "area": "52 Нижегородская область",
+        "city": "город Нижник Новгород",
+        "adress": "Московское шоссе, 302А",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "@rosrao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 116,
+    "fields": {
+        "organization_name": "ФГУП УЭМЗ",
+        "area": "66 Свердловская область",
+        "city": "город Екатеринбург",
+        "adress": "Студенческая, д.9",
+        "OGRN": "1026604973120",
+        "INN": "006608004641",
+        "email_domain": "@etel.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 117,
+    "fields": {
+        "branch": "Волгоградское отделение филиала \"ЮТО\" ФГУП \"РосРАО",
+        "area": "20 Чеченская Республика, 34 Волгоградская область",
+        "city": "город Грозный, город Волгоград",
+        "adress": "ул.Молдавская, 1, ул.Бетонная, 1",
+        "OGRN": "1024701761534,  1024701761534",
+        "INN": "004714004270, 004714004270",
+        "email_domain": "groz-radon@yandex.ru, vlg.ugto@rosrao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 118,
+    "fields": {
+        "branch": "Филиал \"ЮТО\" ФГУП \"РосРАО",
+        "area": "61 Ростовская область",
+        "city": "город Ростов-на-Дону",
+        "adress": "ул. 30-я линия, 54",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "ugto@rosrao.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 119,
+    "fields": {
+        "organization_name": "ООО \"АРМЗ Сервис\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Большой Дровяной пер., д. 12с3",
+        "OGRN": "1087746628903",
+        "INN": "007708671295",
+        "email_domain": "@eks-armz.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 120,
+    "fields": {
+        "organization_name": "Частное учреждение \"ИТЦП \"ПРОРЫВ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Варшавское шоссе, д. 46, Малая Красносельская, д. 2/8",
+        "OGRN": "1127799016542",
+        "INN": "007726485277",
+        "email_domain": "@proryv2020.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 121,
+    "fields": {
+        "organization_name": "АО \"НИАЭП\"",
+        "area": "52 Нижегородская область   77 г. Москва",
+        "city": "город Нижний Новгород   город Москва",
+        "adress": "пл. Свободы, 3    Дмитровское ш., д. 2, стр.1",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@niaep.ru, @atomstroyexport.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 122,
+    "fields": {
+        "organization_name": "ФГУП \"ФНПЦ НИИИС им.Ю.Е.Седакова\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "ул.Тропинина, д.47",
+        "OGRN": "1025203569203",
+        "INN": "005261000011",
+        "email_domain": "@niiis.nnov.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 123,
+    "fields": {
+        "organization_name": "АО \"Атомэнергомаш\"",
+        "full_organization_name": "Акционерное общество \"Атомное и энергетическое машиностроение\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Озерковская наб.,д.28,стр.3   , ул. Большая Ордынка, д. 24, Б. Ордынка, дом 24",
+        "OGRN": "1067746426439",
+        "INN": "007706614573",
+        "email_domain": "@aem-group.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 124,
+    "fields": {
+        "organization_name": "ФГУП \"ВЭИ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Красноказарменная, д. 12",
+        "OGRN": "1027739030220",
+        "INN": "007722026032",
+        "email_domain": "@vei.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 125,
+    "fields": {
+        "organization_name": "АО \"АЭМ-лизинг\"",
+        "full_organization_name": "Акционерное общество \"АЭМ-лизинг\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Озерковская набережная, д. 28",
+        "OGRN": "1077762074356",
+        "INN": "007706673635",
+        "email_domain": "@eam-leasing.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 126,
+    "fields": {
+        "organization_name": "ФГУП \"ВНИИА\", ФГУП \"ВНИИА им. Н.Л. Духова\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Сущевская, д.22",
+        "OGRN": "1027739646164",
+        "INN": "007707074137",
+        "email_domain": "mto90@vniia.ru, metrolog@vniia.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 127,
+    "fields": {
+        "organization_name": "АО \"АТЭК\"",
+        "full_organization_name": "Акционерное общество \"Атомтехэкспорт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "2-й Южнопортовый пр-д, д.18, с.2",
+        "OGRN": "1027739473816",
+        "INN": "007705408850",
+        "email_domain": "@atex.org.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 128,
+    "fields": {
+        "organization_name": "АО \"НИИграфит\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Электродная, дом 2",
+        "OGRN": "1117746574593",
+        "INN": "007720723422",
+        "email_domain": "@niigrafit.org, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 129,
+    "fields": {
+        "organization_name": "АО \"Атомтехэкспорт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Угрешская, д.2, стр.11",
+        "OGRN": "1027739473816",
+        "INN": "007705408850",
+        "email_domain": "@atex.org.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 130,
+    "fields": {
+        "organization_name": "ОАО \"НИИЭФА\"",
+        "area": "78, г.Санкт-Петербург",
+        "city": "",
+        "adress": "дорога на Металлострой, д.3, пос.Металлострой",
+        "OGRN": "1137847503067",
+        "INN": "007817331468",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 131,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Калининская атомная станция",
+        "area": "69 Тверская область",
+        "city": "город Удомля",
+        "adress": "Калининская атомная станция, Промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@knpp.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 132,
+    "fields": {
+        "organization_name": "АО \"Техснабэкспорт\"",
+        "full_organization_name": "Акционерное общество \"Техснабэкспорт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Озерковская наб., д.28, стр.3",
+        "OGRN": "1027700018290",
+        "INN": "007706039242",
+        "email_domain": "@tenex.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 133,
+    "fields": {
+        "organization_name": "ФГУП \"УЭМЗ\"",
+        "area": "66 Свердловская область",
+        "city": "город Екатеринбург",
+        "adress": "Студенческая, д.9",
+        "OGRN": "1026604973120",
+        "INN": "006608004641",
+        "email_domain": "@uemz.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 134,
+    "fields": {
+        "organization_name": "ФГУП \"ПО \"Маяк\"",
+        "branch": "Филиал ФГУП \"ПО \"Маяк\"-\"Базальт",
+        "area": "74 Челябинская область",
+        "city": "город Озерск",
+        "adress": "пр-т Ленина, дом 31, Вольский тракт, 4",
+        "OGRN": "1027401177209",
+        "INN": "007422000795",
+        "email_domain": "@po-mayak.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 135,
+    "fields": {
+        "organization_name": "АО \"СНИИП\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Расплетина, дом 5, стр 1",
+        "OGRN": "5087746165821",
+        "INN": "007734592593",
+        "email_domain": "@sniip.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 136,
+    "fields": {
+        "organization_name": "АО \"ЦОиС\" ОЛенКур\"",
+        "full_organization_name": "Акционерное общество \"Центр Отдыха и Спорта \"ОЛенКур\"",
+        "area": "50 Московская область, 77 г. Москва",
+        "city": "город Москва",
+        "adress": "Уч. 2Д, ул. Радио 24 корп.2, Снегири",
+        "OGRN": "1055004250916",
+        "INN": "005024076079",
+        "email_domain": "@centeratom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 137,
+    "fields": {
+        "branch": "Филиал АО \"Гринатом\" в г.Н.Новгород",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "пр.Ленина, д.93",
+        "OGRN": "1097746819720",
+        "INN": "007706729736",
+        "email_domain": "@greenatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 138,
+    "fields": {
+        "branch": "Филиал АО \"Гринатом\" в г. Санкт-Петербург",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "Пр-кт Стачек, дом 47, литер Л",
+        "OGRN": "1097746819720",
+        "INN": "007706729736",
+        "email_domain": "@greenatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 139,
+    "fields": {
+        "organization_name": "АО КЦ \"Атомбезопасность\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Электролитный проезд, вл.1А, ст.1",
+        "OGRN": "1197746114554",
+        "INN": "007726447835",
+        "email_domain": "@atomsp.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 140,
+    "fields": {
+        "organization_name": "АО \"ТВЭЛ\", Акционерное общество \"ТВЭЛ\" (АО \"ТВЭЛ\")",
+        "full_organization_name": "Акционерное общество \"ТВЭЛ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б. Ордынка, д.24, Каширское ш., д.49, Каширское шоссе, дом 49",
+        "OGRN": "1027739121475",
+        "INN": "007706123550",
+        "email_domain": "@tvel.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 141,
+    "fields": {
+        "organization_name": "ООО \"Объединенные урановые предприятия\"",
+        "area": "77 г.Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, д.49 стр.1",
+        "OGRN": "1087746823471",
+        "INN": "007705849332",
+        "email_domain": "@u1holding.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 142,
+    "fields": {
+        "branch": "филиал ОАО \"НИФХИ им.Л.Я. Карпова",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "Киевское шоссе, 109 км",
+        "OGRN": "5137746240979",
+        "INN": "007709944065",
+        "email_domain": "@karpovipc.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 143,
+    "fields": {
+
+        "full_organization_name": "Общество с ограниченной ответственностью \"Русатом Оверсиз\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Садовническая, д.20, стр.1",
+        "OGRN": "5077746587727",
+        "INN": "007709735135",
+        "email_domain": "@rosatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 144,
+    "fields": {
+        "organization_name": "ООО \"Курская АЭС-Сервис\"",
+        "area": "46 Курская область",
+        "city": "город Курчатов",
+        "adress": "ул. Молодежная, д.4",
+        "OGRN": "1094613000503",
+        "INN": "004634010454"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 145,
+    "fields": {
+        "organization_name": "АО \"Атомэнергопроект\"",
+        "full_organization_name": "Акционерное общество \"Атомэнергопроект\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Бакунинская, д.7, стр.1",
+        "OGRN": "1087746998646",
+        "INN": "007701796320",
+        "email_domain": "@aep.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 146,
+    "fields": {
+        "organization_name": "ФГУП \"Институт стратегической стабильности\"",
+        "area": "77 г.Москва",
+        "city": "город Москва",
+        "adress": "ул. Луганская д.9, стр.1",
+        "OGRN": "1027739823011",
+        "INN": "007724205478",
+        "email_domain": "@iss-aom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 147,
+    "fields": {
+        "organization_name": "АО \"ВПО \"ЗАЭС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Потаповский пер., д.5 ст.4  , Варшавское шоссе, дом 46",
+        "OGRN": "1077764794975",
+        "INN": "007701763846",
+        "email_domain": "@zaes.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 148,
+    "fields": {
+        "organization_name": "АО \"ПО \"Машиностроительный завод \"Молния\", АО \"ПО \"МЗ \"Молния\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Рязанский проспект, д.6а, Рязанский проспект, дом 6а",
+        "OGRN": "1117746564022",
+        "INN": "007721730486",
+        "email_domain": "@molniya.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 149,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" ОИЦ НИКИМ",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "пр-т Ленина, дом 127",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@obninsk.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 150,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция в г. Озерск",
+        "area": "74 Челябинская область",
+        "city": "город Озерск",
+        "adress": "ул. Челябинская, 22",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 151,
+    "fields": {
+        "organization_name": "ОАО \"Инженерно-Конструкторское Бюро ВНИИАЭС\" (ОАО ИКБВ\")",
+        "area": "77 г.Москва",
+        "city": "город Москва",
+        "adress": "Малая Калужская, д.19",
+        "OGRN": "1117746515468",
+        "INN": "007725727702",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 152,
+    "fields": {
+        "organization_name": "ООО \"Ленинградская АЭС-Авто\"",
+        "area": "47 Ленинградская область",
+        "city": "город Сосновый бор",
+        "adress": "Копорское шоссе, дом 101, \tПромзона, зд. 626",
+        "OGRN": "1094714000435",
+        "INN": "004714023385",
+        "email_domain": "laes-avto@yandex.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 153,
+    "fields": {
+        "organization_name": "АО \"РЭИН\"",
+        "full_organization_name": "Акционерное общество \"Русатом Энерго Интернешнл\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Старомонетный пер., д. 26, Серебряническая набережная д. 29, \tул. Ленинская Слобода, дом 26",
+        "OGRN": "1117746592149",
+        "INN": "007706759586",
+        "email_domain": "@rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 154,
+    "fields": {
+        "organization_name": "АО \"НИИП\"",
+        "area": "50 Московская область",
+        "city": "город Лыткарино",
+        "adress": "промзона Тураево, строение 8",
+        "OGRN": "1165027055258",
+        "INN": "005027241394",
+        "email_domain": "@niipribor.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 155,
+    "fields": {
+        "branch": "Грозненское отделение филиала \"ЮТО\" ФГУП \"РосРАО",
+        "area": "20 Чеченская Республика",
+        "city": "город Грозный",
+        "adress": "ул. Молдавская, д. 1",
+        "OGRN": "1024701761534",
+        "INN": "004714004270",
+        "email_domain": "groz-radon@yandex.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 156,
+    "fields": {
+        "organization_name": "ООО \"Аргон\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"Аргон\"",
+        "area": "64 Саратовская область",
+        "city": "город Балаково",
+        "adress": "ул. Саратовское шоссе, д.2",
+        "OGRN": "1056405421192",
+        "INN": "006454074501",
+        "email_domain": "@rus-carbon.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 157,
+    "fields": {
+        "organization_name": "АО \"АтомКапитал\"",
+        "full_organization_name": "Акционерное общество \"АтомКапитал\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Б. Толмачевский пер., д. 4, 4, Б. Ордынский пер., д. 4, 4, 1-й Щемиловсикй пер., д.15, ул. Большая Ордынка, дом 24",
+        "OGRN": "1137746270793",
+        "INN": "007706792008"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 158,
+    "fields": {
+        "branch": "Филиал ОАО \"Концерн Росэнергоатом\" \"Научно-инженерный центр",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Холодильный пер., д. 3А",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@nic.rosenergoatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 159,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" Дирекция строящейся Балтийской Атомной станци, Филиал АО Концерн Росэнергоатом Дирекция строящейся БалтАЭ",
+        "area": "39 Калининградская область",
+        "city": "поселок Маломожайское",
+        "adress": "ул. Центральная, №1а",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@btaes.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 160,
+    "fields": {
+        "organization_name": "АО \"ГНЦ РФ ТРИНИТИ\"",
+        "area": "77 г. Москва",
+        "city": "город Троицк",
+        "adress": "ул. Пушковых, владение 12",
+        "OGRN": "1157746176400",
+        "INN": "007751002460",
+        "email_domain": "@triniti.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 161,
+    "fields": {
+        "organization_name": "ОАО \"ОКБМ Африкантов\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "Бурнаковский проезд, дом 15",
+        "OGRN": "1085259006117",
+        "INN": "005259077666",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 162,
+    "fields": {
+        "organization_name": "АО \"Железногорская ТЭЦ\"",
+        "full_organization_name": "Акционерное общество \"Железногорская ТЭЦ\"",
+        "area": "24 Красноярский край",
+        "city": "город Железногорск, город Сосновоборск",
+        "adress": "ул. Заводская, дом 28, ул. Заводская 28 стр.1, \tул. Свердлова, д.47",
+        "OGRN": "1147746715247",
+        "INN": "002458013365",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 163,
+    "fields": {
+        "organization_name": "АО \"Наука и инновации\"",
+        "full_organization_name": "Акционерное общество \"Наука и инновации\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б. Ордынка, д. 40 стр.1, ул. Большая Ордынка, д. 24, Старомонетный пер., д. 26, \tСтаромонетный переулок, дом 26, Кадашёвская наб., д. 32/2, с.1",
+        "OGRN": "1117746621211",
+        "INN": "007706760091",
+        "email_domain": "@zhtets.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 164,
+    "fields": {
+        "organization_name": "АО \"ВНИИАЭС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Ферганская, дом 25",
+        "OGRN": "1027721007797",
+        "INN": "007721247141",
+        "email_domain": "@vniiaes.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 165,
+    "fields": {
+        "organization_name": "АО \"Центр управления федеральной собственностью\", АО \"ЦУФС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Путевой проезд, д. 14 кор. 2, ул. Радио 24 корп. 2",
+        "OGRN": "1157746339178, 12606203414",
+        "INN": "007715470328",
+        "email_domain": "@cufs.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 166,
+    "fields": {
+        "organization_name": "ФГУП \"НИИ НПО \"ЛУЧ\"",
+        "area": "50 Московская область",
+        "city": "город Подольск",
+        "adress": "ул. Железнодорожная, дом 24",
+        "OGRN": "1035007203549",
+        "INN": "005036005308",
+        "email_domain": "@luch.podolsk.ru, @fin.sialuch.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 167,
+    "fields": {
+        "branch": "ФГУП \"НИИ НПО \"ЛУЧ\" Протвинский филиа, Протвинский филиал ФГУП \"НИИ НПО \"ЛУЧ, Протвинского филиала ФГУП \"НИИ НПО \"ЛУЧ",
+        "area": "50 Московская область",
+        "city": "город Протвино",
+        "adress": "ул. Железнодорожная, д. 5",
+        "OGRN": "1035007203549",
+        "INN": "005036005308"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 168,
+    "fields": {
+        "organization_name": "АО \"Инжиниринговая компания \"АЭМ-технологии\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург, город Колпино",
+        "adress": "ул. Финляндская, дом 7",
+        "OGRN": "1079847125522",
+        "INN": "007817311895"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 169,
+    "fields": {
+        "branch": "Филиал АО \"АЭМ-Технологии\" \"Петрозаводскмаш\" в г.Петрозаводс",
+        "email_domain": "@aemtech.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 170,
+    "fields": {
+        "organization_name": "АО ОКБ \"ГИДРОПРЕСС\"",
+        "area": "50 Московская область",
+        "city": "город Подольск",
+        "adress": "ул. Орджоникидзе, дом 21",
+        "OGRN": "1085074009503",
+        "INN": "005036092340",
+        "email_domain": "@grpress.podolsk.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 171,
+    "fields": {
+        "organization_name": "АО \"Атомспецтранс\"",
+        "full_organization_name": "Акционерное общество \"Атомспецтранс\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Проспект Мира, д. 81 Б",
+        "OGRN": "1087746009218",
+        "INN": "007717609102",
+        "email_domain": "@atomst.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 172,
+    "fields": {
+        "organization_name": "АО \"Атомный энергопромышленный комплекс\"",
+        "full_organization_name": "Акционерное общество \"Атомный энергопромышленный комплекс\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, 24, ул. Б. Ордынка, д. 24",
+        "OGRN": "1077758081664",
+        "INN": "007706664260",
+        "email_domain": "@rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 173,
+    "fields": {
+        "organization_name": "ООО \"Балаковская АЭС-Авто\"",
+        "area": "64 Саратовская область",
+        "city": "город Балаково",
+        "adress": "Промплощадка БАЭС",
+        "OGRN": "1096439001064",
+        "INN": "006439071143",
+        "email_domain": "@balakovo.info"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 174,
+    "fields": {
+        "organization_name": "НОУ ДПО \"ЦИПК Росатома\"",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "ул. Курчатова, д. 21",
+        "OGRN": "1024000935848",
+        "INN": "004025017684",
+        "email_domain": "@scicet.ru  @rosatom-cipk.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 175,
+    "fields": {
+        "organization_name": "АО \"НИИТФА\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Варшавское шоссе, д. 46",
+        "OGRN": "5087746235825",
+        "INN": "007726606316",
+        "email_domain": "@niitfa.ru, @vniitfa.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 176,
+    "fields": {
+        "organization_name": "ЧУ \"Центратомархив\"",
+        "area": "50 Московская область",
+        "city": "город Мытищи",
+        "adress": "ул. Хлебозаводская, д. 2",
+        "OGRN": "1095000007013",
+        "INN": "005029133115",
+        "email_domain": "@atomarhiv.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 177,
+    "fields": {
+        "organization_name": "АО \"ВНИПИпромтехнологии\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Каширское шоссе, дом 33",
+        "OGRN": "5087746493600",
+        "INN": "007724683379",
+        "email_domain": "@rosatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 178,
+    "fields": {
+        "organization_name": "НОУ ДПО \"ЦИПК Росатома\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул. Аэродромная, д. 4, Литер А",
+        "OGRN": "1024000935848",
+        "INN": "004025017684",
+        "email_domain": "@atomprof.spb.ru, @rosatom-cipk.spb.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 179,
+    "fields": {
+        "organization_name": "АО \"В/О \"Изотоп\"",
+        "full_organization_name": "Акционерное общество \"Всерегиональное объединение \"Изотоп\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Погодинская, дом 22",
+        "OGRN": "1087746009130",
+        "INN": "007704674312",
+        "email_domain": "@isotop.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 180,
+    "fields": {
+        "organization_name": "ЗАО \"Технатом\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Ленинский проспект, д. 15А",
+        "OGRN": "1027700377682",
+        "INN": "007718160684",
+        "email_domain": "@rusatomservice.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 181,
+    "fields": {
+        "organization_name": "АО \"УАЗ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Нагорный проезд, дом 7, стр.1",
+        "OGRN": "5137746211290",
+        "INN": "007706804447",
+        "email_domain": "@domatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 182,
+    "fields": {
+        "organization_name": "АО \"ТВЭЛ-СТРОЙ\"",
+        "full_organization_name": "Акционерное общество \"ТВЭЛ-СТРОЙ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Варшавское шоссе, д. 47\\4, \tВаршавское шоссе, д.3, оф.23",
+        "OGRN": "1057747396497",
+        "INN": "007726523814",
+        "email_domain": "@tvel-stroy.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 183,
+    "fields": {
+        "branch": "Саранский филиал АО \"НИИТФА",
+        "area": "13 Республика Мордовия",
+        "city": "город Саранск",
+        "adress": "ул. Рабочая, дом 82",
+        "OGRN": "5087746235825",
+        "INN": "007726606316",
+        "email_domain": "buh-sfniitfa@yandex.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 184,
+    "fields": {
+        "organization_name": "ООО \"НИИАР-Генерация\"",
+        "area": "73 Ульяновская область",
+        "city": "город Димитровград",
+        "adress": "пр. Димитрова, д. 16, \tул. Юнг Северного Флота, д.20, \tРечное шоссе, д.7",
+        "OGRN": "1127329003163",
+        "INN": "007329008990",
+        "email_domain": "@rosatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 185,
+    "fields": {
+        "organization_name": "ООО \"АтомТеплоЭлектроСеть\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"АтомТеплоЭлектроСеть\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Садовническая, д.14,стр.2, Проектируемый пр.,4062, д.6,25",
+        "OGRN": "1107746591512",
+        "INN": "007705923730",
+        "email_domain": "@atomtes.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 186,
+    "fields": {
+        "organization_name": "АО \"ЭНИЦ\"",
+        "area": "50 Московская область",
+        "city": "город Электрогорск",
+        "adress": "ул. Святого Константина, д. 6",
+        "OGRN": "1085035000786",
+        "INN": "005035037441",
+        "email_domain": "@erec.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 187,
+    "fields": {
+        "organization_name": "АО \"ВНИПИЭТ\"",
+        "area": "47 Ленинградская область",
+        "city": "город Сосновый Бор",
+        "adress": "ул. 50 Лет Октября, дом 1",
+        "OGRN": "1054700480009",
+        "INN": "004714017335",
+        "email_domain": "@atoms.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 188,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Билибинская атомная станция\"",
+        "area": "87 Чукотский автономный округ",
+        "city": "город Билибино",
+        "adress": "ул. Ферганская, д. 25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@bilnpp.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 189,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" \"Ленинградская атомная станция\"",
+        "area": "47 Ленинградская область",
+        "city": "город Сосновый Бор",
+        "adress": "Промзона",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@laes.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 190,
+    "fields": {
+        "organization_name": "АО \"Санкт-Петербургский \"ИЗОТОП\"",
+        "full_organization_name": "Акционерное общество \"Санкт-Петербургский \"ИЗОТОП\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "Невский пр.,д.107,лит.Б,п.2Н",
+        "OGRN": "1089847262317",
+        "INN": "007840393624",
+        "email_domain": "@izotop.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 191,
+    "fields": {
+        "organization_name": "АНО \"Корпоративная Академия Росатома\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Кожевнический проезд, д. 1",
+        "OGRN": "1127799017279",
+        "INN": "007706470787",
+        "email_domain": "@rosatom-academy.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 192,
+    "fields": {
+        "organization_name": "ООО \"АЛАБУГА-ВОЛОКНО\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"АЛАБУГА-ВОЛОКНО\"",
+        "area": "16 Республика Татарстан",
+        "city": "город Елабуга, территория Особой Экономической Зоны \"Алабуга\"",
+        "adress": "улица Ш-2, корпус 4/1",
+        "OGRN": "1111674004045",
+        "INN": "001646031132",
+        "email_domain": "@hccomposite.com"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 193,
+    "fields": {
+        "organization_name": "АО \"НПК \"Химпроминжиниринг\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Волгоградский пр., д.43, к.13, ул. Варшавское ш., д. 46",
+        "OGRN": "1087746570383",
+        "INN": "007706688991",
+        "email_domain": "@snvsar.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 194,
+    "fields": {
+        "organization_name": "АО \"НИКИЭТ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Малая Красносельская д. 2/8",
+        "OGRN": "1097746180740",
+        "INN": "007708698473",
+        "email_domain": "@nikiet.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 195,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Красная Звезда\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Электролитный проезд, д. 1\"А\"",
+        "OGRN": "1117746689675",
+        "INN": "007726682003",
+        "email_domain": "@redstaratom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 196,
+    "fields": {
+        "organization_name": "АО \"НТЦ ЯФИ\"",
+        "full_organization_name": "Акционерное общество \"НТЦ \"ЯФИ\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "2-й Муринский пр., 28",
+        "OGRN": "1089847294261",
+        "INN": "007802441926",
+        "email_domain": "@yafi.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 197,
+    "fields": {
+        "organization_name": "АО \"Экспедиция №2\"",
+        "full_organization_name": "Акционерное общество \"Экспедиция №2\"",
+        "area": "29 Архангельская область и Ненецкий автономный округ",
+        "city": "город Архангельск, Архангельск-55",
+        "adress": "в\\ч 77510 \"Н\"",
+        "OGRN": "1152901001252",
+        "INN": "002901255495"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 198,
+    "fields": {
+        "organization_name": "ООО \"СТС\"",
+        "area": "24 Красноярский край",
+        "city": "город Железногорск",
+        "adress": "Северная, д. 21",
+        "OGRN": "1122452000703",
+        "INN": "002452201637",
+        "email_domain": "@nsv.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 199,
+    "fields": {
+        "organization_name": "АО \"Концерн Росэнергоатом\", Дирекция по сооружению и эксплуатации ПАТЭС",
+        "area": "77 г. Москва, 78 г. Санкт-Петербург, 87 Чукотский автономный округ, 51 Мурманская область",
+        "city": "город Москва, город Санкт-Петербург, город Певек, город Мурманск",
+        "adress": "Проектируемый пр-д 4062-й, д.6, стр.25, Косая линия, 16, ул. Пугачева, ул. Аэродромная, д.4 литера А, ул. Капитана Орликовой, д. 60"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 200,
+    "fields": {
+        "organization_name": "ООО \"Курская АЭС-Авто\"",
+        "area": "46 Курская область",
+        "city": "город Курчатов",
+        "adress": "Промзона",
+        "OGRN": "5087746119951,  1064611023795",
+        "INN": "007721632827, 004617004958",
+        "email_domain": "@peb.rosenergoatom.ru, @knpp-auto.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 201,
+    "fields": {
+        "organization_name": "АО \"ФЦНИВТ \"СНПО \"ЭЛЕРОН\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Генерала Белова, дом 14",
+        "OGRN": "1157746325043",
+        "INN": "007724313681",
+        "email_domain": "@eleron.org, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 202,
+    "fields": {
+        "organization_name": "АО \"АтомЭнергоСбыт\"",
+        "full_organization_name": "Акционерное общество \"АтомЭнергоСбыт\"",
+        "area": "77 г. Москва, 69 Тверская область",
+        "city": "город Москва, город Тверь",
+        "adress": "ул. Летниковская, д. 10, стр.4  , Проектируемый пр-зд 4062, 6-25, Проектируемый проезд 4062, д.6, пр-кт Калинина, д.17",
+        "OGRN": "1027700050278",
+        "INN": "007704228075",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 203,
+    "fields": {
+        "branch": "Филиал АО \"АтомЭнергоСбыт\" \"КолАтомЭнергоСбыт",
+        "area": "51 Мурманская область",
+        "city": "город Мурманск",
+        "adress": "ул. Коминтерна, дом 5",
+        "OGRN": "1027700050278",
+        "INN": "007704228075",
+        "email_domain": "@murmansk.atomsbt.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 204,
+    "fields": {
+        "organization_name": "Обособленное подразделение \"КурскАтомЭнергоСбыт\"",
+        "area": "46 Курская область",
+        "city": "город Курск",
+        "adress": "ул. Энгельса, д. 134",
+        "OGRN": "1027700050278",
+        "INN": "007704228075",
+        "email_domain": "@atomsbt.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 205,
+    "fields": {
+        "organization_name": "Обособленное подразделение \"ТверьАтомЭнергоСбыт\"",
+        "area": "69 Тверская область",
+        "city": "город Тверь",
+        "adress": "Калинина пр-кт, д.17",
+        "OGRN": "1027700050278",
+        "INN": "007704228075",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 206,
+    "fields": {
+        "organization_name": "ФГУП \"НИТИ им. А.П. Александрова\"",
+        "area": "47 Ленинградская область",
+        "city": "город Сосновый Бор",
+        "adress": "Копорское шоссе, д. 72",
+        "OGRN": "1024701759565",
+        "INN": "004714000067",
+        "email_domain": "@niti.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 207,
+    "fields": {
+        "organization_name": "Частное учреждение \"РМС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Ленинский проспект, 15 А",
+        "OGRN": "1147799016309",
+        "INN": "007706471614",
+        "email_domain": "@rosatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 208,
+    "fields": {
+        "organization_name": "АО \"ВНИИАМ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Космонавта Волкова, д. 6А, ул. Шарикоподшипниковская, д.4",
+        "OGRN": "1077758710578",
+        "INN": "007743654609",
+        "email_domain": "@VNIIAM.RU"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 209,
+    "fields": {
+        "organization_name": "АО \"ИКАО\", Акционерное общество \"ИКАО\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Цветной бульвар д.25 стр.3, Проектируемый проезд 4062 д.6",
+        "OGRN": "1077763638578",
+        "INN": "007704670879"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 210,
+    "fields": {
+        "organization_name": "АО \"Атомтранс\"",
+        "full_organization_name": "Акционерное общество \"Атомтранс\"",
+        "area": "67 Смоленская область",
+        "city": "город Десногорск",
+        "adress": "-",
+        "OGRN": "1086725000878",
+        "INN": "006724008446",
+        "email_domain": "@atomtrans.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 211,
+    "fields": {
+        "organization_name": "АО \"Производственная система \"ПСР\"",
+        "full_organization_name": "Акционерное общество \"Производственная система \"ПСР\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Ферганская, д. 25",
+        "OGRN": "1107746600950",
+        "INN": "007721699740"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 212,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" ОДИ",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "улицу Курчатова, дом 14, промышленная зона южная 1",
+        "OGRN": "5087746119951",
+        "INN": "007721632827",
+        "email_domain": "@odic.rosenergoatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 213,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция на Нововорон-ой АЭ",
+        "area": "36 Воронежская облать",
+        "city": "город Нововоронеж",
+        "adress": "ул. Курчатова, 2 \"Б\"",
+        "OGRN": "5087746235836",
+        "INN": "007715719854",
+        "email_domain": "@atomrus.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 214,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ Атомстрой\" Дирекция на САЭ",
+        "area": "67 Смоленская область",
+        "city": "город Десногорск",
+        "adress": "Промзона САЭС",
+        "OGRN": "5087746235836",
+        "INN": "007715719854"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 215,
+    "fields": {
+        "organization_name": "ФГУП \"Атом-охрана\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Расплетина, дом 3",
+        "OGRN": "1037706007767",
+        "INN": "007706289940",
+        "email_domain": "@agrd.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 216,
+    "fields": {
+        "organization_name": "АО \"Международный центр по обогащению урана\"",
+        "area": "38 Иркутская область",
+        "city": "город Ангарск",
+        "adress": "220 квартал, дом 4",
+        "OGRN": "1073801006982",
+        "INN": "003801091245",
+        "email_domain": "@iuec.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 217,
+    "fields": {
+        "organization_name": "ООО \"АтомТеплоСбыт\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"АтомТеплоСбыт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Летниковская ул.,дом 10,кор.4, Проектируемый проезд 4062, д.6",
+        "OGRN": "5077746463273",
+        "INN": "007709733339",
+        "email_domain": "@atomsbt.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 218,
+    "fields": {
+        "organization_name": "ООО \"Калининская АЭС - Сервис\"",
+        "area": "69 Тверская область",
+        "city": "город Удомля",
+        "adress": "ул. Тверская, д. 7",
+        "OGRN": "1096908001123",
+        "INN": "006916015990",
+        "email_domain": "@kaesservice.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 219,
+    "fields": {
+        "organization_name": "ООО \"Центр энергоэффективности ИНТЕР РАО ЕЭС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Пироговская, д.27, с.1",
+        "OGRN": "1107746808256",
+        "INN": "007704765961",
+        "email_domain": "@interef.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 220,
+    "fields": {
+        "branch": "АО \"Атомтехэнерго\" Нововоронежский филиал УТЦ АТ",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "промзона \"Южная\", а\\я 5",
+        "OGRN": "1075029010187",
+        "INN": "005029106714",
+        "email_domain": "@ntcatech.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 221,
+    "fields": {
+        "organization_name": "АО \"РАСУ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Ферганская, д. 25, стр. 1",
+        "OGRN": "1157746687383",
+        "INN": "007734358970",
+        "email_domain": "@rasu.ru, @rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 222,
+    "fields": {
+        "branch": "Волгодонский филиал АО \"НИАЭП",
+        "area": "61 Ростовская область",
+        "city": "город Волгодонск",
+        "adress": "г. Волгодонск-28",
+        "OGRN": "1075260029240",
+        "INN": "005260214123",
+        "email_domain": "@niaep.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 223,
+    "fields": {
+        "organization_name": "АО \"Русреактор\"",
+        "full_organization_name": "Акционерное общество \"Русатом растворные реакторы\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "адерс: Электролитный проезд, д. 1а",
+        "OGRN": ", 1167746096715",
+        "INN": "007726367354",
+        "email_domain": "@rosatom.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 224,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Институт физико-технических проблем\"",
+        "area": "50 Московская область",
+        "city": "город Дубна",
+        "adress": "ул. Курчатова, д.4",
+        "OGRN": ", 1085010000305",
+        "INN": "005010036527"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 225,
+    "fields": {
+        "organization_name": "ООО \"Литейный завод \"Петрозаводскмаш\", ООО \"ЛЗ \"ПЗМ\"",
+        "area": "10 Республика Карелия",
+        "city": "город Петрозаводск",
+        "adress": "ул. Зайцева, д. 65",
+        "OGRN": ", 1071001019132",
+        "INN": "001001201343"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 226,
+    "fields": {
+        "organization_name": "Частное учреждение Госкорпорации \"Росатом\" \"ОЦКС\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Старомонетный пер., д. 26",
+        "OGRN": "1127799016399",
+        "INN": "007706470770"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 227,
+    "fields": {
+        "organization_name": "ООО \"СМБ\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"Системы мониторинга \"Беркут\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Б. Ордынка, д.24, ул. Большая Ордынка, д. 24, Серебряническая наб., д.29",
+        "OGRN": "1167746169975",
+        "INN": "007706433961",
+        "email_domain": "@smberkut.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 228,
+    "fields": {
+        "branch": "Филиал АО \"Концерн Росэнергоатом\" РК",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Холодильный переулок, 3а, кор. 2",
+        "OGRN": ", 5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 229,
+    "fields": {
+        "branch": "Технологический филиал АО \"Концерн Росэнергоатом",
+        "area": "77г. Москва",
+        "city": "город Москва",
+        "adress": "Проектируемый пр.4062,д.6,с.25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 230,
+    "fields": {
+        "organization_name": "Частное учреждение Государственной корпорации по атомной энергии",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Академика Курчатова д.1 стр.3",
+        "OGRN": ", 1107799034617",
+        "INN": "007734269417"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 231,
+    "fields": {
+        "organization_name": "ФГУП \"Опытный завод ВЭИ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Красноказарменная, д.12а",
+        "OGRN": "1037739427725",
+        "INN": "007722024973"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 232,
+    "fields": {
+        "organization_name": "ООО \"НПП \"Инжект\"",
+        "area": "64 Саратовская область",
+        "city": "город Саратов",
+        "adress": "ул. Элмашевская, Владение 3А, оф1",
+        "OGRN": "1156451017436",
+        "INN": "006453142068",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 233,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Ураниум Уан Груп\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, дом 24",
+        "OGRN": "1067760346103",
+        "INN": "007706641432",
+        "email_domain": "@u1g.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 234,
+    "fields": {
+        "organization_name": "АО \"НИЦ АЭС\"",
+        "full_organization_name": "Акционерное общество \"НИЦ АЭС\"",
+        "area": "50 Московская область",
+        "city": "город Кашира",
+        "adress": "ул. Советский проспект",
+        "OGRN": ", 1095019001220",
+        "INN": "005019021966"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 235,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Атомтрубопроводмонтаж\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Строительный проезд, дом 7А, к.1",
+        "OGRN": "1027700394303",
+        "INN": "007734242302",
+        "email_domain": "@atom-tm.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 236,
+    "fields": {
+        "organization_name": "АО \"ВНИИНМ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Рогова, 5а, ул. Рогова, дом 5А",
+        "OGRN": "5087746697198",
+        "INN": "007734598490"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 237,
+    "fields": {
+        "full_organization_name": "Общество с ограниченной ответственностью \"АЭМ-активы\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, дом 24",
+        "OGRN": ", 1127747205398",
+        "INN": "007706785593"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 238,
+    "fields": {
+        "organization_name": "Дирекция строящейся Костромской атомной станции",
+        "area": "44 Костромская область",
+        "city": "городское поселение поселок Чистые Боры",
+        "adress": "Промзона-2, д.1",
+        "OGRN": ", 5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 239,
+    "fields": {
+        "full_organization_name": "Акционерное Общество \"Железногорская ТЭЦ\"",
+        "area": "24 Красноярский край",
+        "city": "город Сосновоборск",
+        "adress": "ул. Заводская 28 стр.1",
+        "OGRN": ", 1147746715247",
+        "INN": "002458013365"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 240,
+    "fields": {
+        "full_organization_name": "Общество с ограниченной ответственностью \"РМЗ ГХК\"",
+        "area": "24 Красноярский край",
+        "city": "город Железногорск",
+        "adress": "ул. Ленина, д. 64",
+        "OGRN": ", 1122452000978",
+        "INN": "002452201891",
+        "email_domain": "info-rmz@yandex.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 241,
+    "fields": {
+        "organization_name": "АО \"СПб НИИИ \"ЭИЗ\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул. Бабушкина, д. 1",
+        "OGRN": "1089847279532",
+        "INN": "007811411780",
+        "email_domain": "info@eiz-spb.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 242,
+    "fields": {
+        "organization_name": "ООО \"Волгодонская АЭС-Сервис\"",
+        "area": "61 Ростовская область",
+        "city": "город Волгодонск",
+        "adress": "ул. Весенняя, дом 40, Волгодонск, дом 28",
+        "OGRN": ", 1096174001373",
+        "INN": "006143072318",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 243,
+    "fields": {
+        "organization_name": "ОАНО МОШ \"Интеграция XXI век\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул.Маршала Катукова,д.16,к.3",
+        "OGRN": ", 1127799002110",
+        "INN": "007734270099",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 244,
+    "fields": {
+        "organization_name": "ООО \"Завод углеродных и композиционных материалов\"",
+        "area": "74 Челябинская область",
+        "city": "город Челябинск",
+        "adress": "Челябинский электродный завод",
+        "OGRN": ", 1067450027248",
+        "INN": "007450045935",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 245,
+    "fields": {
+        "organization_name": "Частное учреждение \"Атомстандарт\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Бутлерова, д.17",
+        "OGRN": "1157700000699",
+        "INN": "007706416170",
+        "email_domain": "@atomstandard.ru, tvgoryaeva@atomstsndard.ru, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 246,
+    "fields": {
+        "full_organization_name": "Общество с ограниченной ответственностью \"Фабрикант.ру\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Тестовая, д. 10",
+        "OGRN": ", 1057748006139",
+        "INN": "007703561549",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 247,
+    "fields": {
+        "organization_name": "АО \"ОКТБ ИС\"",
+        "area": "50 Московская область",
+        "city": "город Химки",
+        "adress": "ул. Первомайская, д. 56",
+        "OGRN": ", 1115047010473",
+        "INN": "005047125572"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 248,
+    "fields": {
+        "organization_name": "АО \"Ветроэнергетическая отдельная генерирующая компания\"",
+        "full_organization_name": "Акционерное общество \"ВетроОГК\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Потаповский пер.5, стр.4, 1-й Щемиловский пер., д.15, ул. Щипок, д.18, стр.2",
+        "OGRN": "1115074014967",
+        "INN": "005036118291",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 249,
+    "fields": {
+        "organization_name": "ООО \"ДОХОДНЫЙ ДОМ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "улица Петровка, д. 20/1",
+        "OGRN": ", 1157746628346",
+        "INN": "007707345838",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 250,
+    "fields": {
+        "branch": "Филиал АО \"НИКИМТ-Атомстрой\" Дирекция на НВАЭС-",
+        "area": "36 Воронежская область",
+        "city": "город Нововоронеж",
+        "adress": "промзона АЭС2",
+        "OGRN": "1027700167110",
+        "INN": "007715719854"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 251,
+    "fields": {
+        "organization_name": "АО \"Русский сверхпроводник\"",
+        "full_organization_name": "Акционерное общество \"Русский сверхпроводник\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Варшавское шоссе, д. 46",
+        "OGRN": ", 5107746019134",
+        "INN": "007726667090"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 252,
+    "fields": {
+        "organization_name": "АО \"Инжиниринговая компания \"АСЭ\", АО Инжиниринговая компания \"АСЭ\"",
+        "full_organization_name": "Акционерное общество Инжиниринговая компания \"АСЭ\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "пл.Свободы, 3, Площадь Свободы, д. 3",
+        "OGRN": "1075260029240",
+        "INN": "005260214123"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 253,
+    "fields": {
+        "organization_name": "АО \"ЭНИЦ\"",
+        "area": "50 Московская область",
+        "city": "город Электрогорск",
+        "adress": "ул. Святого Константина, д. 6",
+        "OGRN": "1085035000786",
+        "INN": "005035037441"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 254,
+    "fields": {
+        "organization_name": "ООО \"АвтоДом\"",
+        "area": "50 Московская область",
+        "city": "город Электрогорск",
+        "adress": "ул. Кржижановского, стр. 21",
+        "OGRN": "1145035000660",
+        "INN": "005035043950"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 255,
+    "fields": {
+        "organization_name": "АО \"АКМЭ-инжиниринг\"",
+        "full_organization_name": "Акционерное общество \"АКМЭ-инжиниринг\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "улица Пятницкая, дом 13, стр.1",
+        "OGRN": ", 1097746791746",
+        "INN": "007706729140"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 256,
+    "fields": {
+        "organization_name": "АО \"Радиевый институт им. В.Г. Хлопина\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "2-ой Муринский пр., д. 28",
+        "OGRN": "1137847503100",
+        "INN": "007802846922"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 257,
+    "fields": {
+        "organization_name": "ПАО \"ЗиО-Подольск\"",
+        "area": "50 Московская область",
+        "city": "город Подольск",
+        "adress": "ул. Железнодорожная, дом 2",
+        "OGRN": "1025004700445",
+        "INN": "005036040729"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 258,
+    "fields": {
+        "organization_name": "НОУ ДПО \"ЦИПК Росатома\"",
+        "area": "40 Калужская область",
+        "city": "город Обнинск",
+        "adress": "ул. Курчатова, д. 21",
+        "OGRN": "1024000935848",
+        "INN": "00000000000, 004025017684",
+        "email_domain": "IYRudnev@rosatom-cipk.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 259,
+    "fields": {
+        "branch": "Технологический филиал АО \"Концерн Росэнергоатом",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Проектируемый пр.4062, д.6с.25",
+        "OGRN": "5087746119951",
+        "INN": "007721632827"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 260,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Русатом Хэлскеа\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Варшавское шоссе, д.46, Серебряническая набережная 29",
+        "OGRN": "1177746123367",
+        "INN": "007726396281",
+        "email_domain": "@rusatomhc.ru, @rosatom.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 261,
+    "fields": {
+        "full_organization_name": "Публичное акционерное общество \"Коммерческий центр\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Лианозовский проезд, д.6",
+        "OGRN": "1027700077570",
+        "INN": "007715020463",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 262,
+    "fields": {
+        "organization_name": "ООО \"Ядерные медицинские технологии-Снежинск\", ООО \"ЯМТ-Снежинск\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"ЯМТ-Снежинск\"",
+        "area": "74 Челябинская область",
+        "city": "город Снежинск",
+        "adress": "ул. Васильева, дом 13, ул. Васильева, д.13",
+        "OGRN": "1157459000027",
+        "INN": "007459003496",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 263,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Балтийская АЭС\"",
+        "area": "39 Калининградская область",
+        "city": "город Калининград",
+        "adress": "ул. Горького, 81",
+        "OGRN": "1103925017448",
+        "INN": "003904612644",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 264,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"РУСБУРМАШ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Земляной вал, дом 59 строение 2, Большой Дровяной пер., д.22",
+        "OGRN": "1037739624328",
+        "INN": "007713190205",
+        "email_domain": "@gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 265,
+    "fields": {
+        "organization_name": "ООО \"С-ПЛЮС\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"С-плюс\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Буракова, д. 29, оф. 110, ул. Электродная, д. 2, \tул. Электродная, д.2, стр.1, ул. Электродная, д.2, стр.1А"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 266,
+    "fields": {
+        "full_organization_name": "Общество с Ограниченной Ответственностью \"БизнесТраст\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Пятницкая, д. 6/1, строение 1",
+        "OGRN": "5157746148148, 1147746589385",
+        "INN": "007720325407, 007709954828",
+        "email_domain": "@c-plus.pro, @nanopolimer.ru, @gk.rosatom.local, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 267,
+    "fields": {
+        "organization_name": "ООО \"Трест РосСЭМ\"",
+        "area": "52 Нижегородская область",
+        "city": "город Нижний Новгород",
+        "adress": "Площадь Свободы, д. 3, пл. Свободы, д. 3, Дмитровское шоссе, 2, стр.1",
+        "OGRN": "1056906004550",
+        "INN": "006916013425",
+        "email_domain": "@trest-rossem.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 268,
+    "fields": {
+        "organization_name": "ФГУП Центр \"Атомзащитаинформ\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Большая Ордынка, дом 24",
+        "OGRN": "1027739635043",
+        "INN": "007706031557"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 269,
+    "fields": {
+        "organization_name": "АНО ДПО \"Техническая академия Росатома\"",
+        "area": "78 г. Санкт-Петербург, 40 Калужская область",
+        "city": "город Санкт-Петербург, город Обнинск",
+        "adress": "ул. Аэродромная, д.4, литер А, ул. Курчатова, д.21",
+        "OGRN": "1174027012830",
+        "INN": "004025450383",
+        "email_domain": "gk.rosatom.local, @rosatomtech.ru"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 270,
+    "fields": {
+        "organization_name": "АО \"НоваВинд\"",
+        "full_organization_name": "Акционерное общество \"НоваВинд\"",
+        "branch": "Филиал АО \"НоваВинд\" в городе Ставропол, Филиал АО \"НоваВинд\" в городе Краснода",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Потаповский пер., д.5, стр.4, ул. Щипок, д.18 стр.2, ул. Щипок, дом18 строение 2",
+        "OGRN": "1177746952888",
+        "INN": "009701087623",
+        "email_domain": "gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 271,
+    "fields": {
+        "full_organization_name": "Акционерное общество \"Русатом Оверсиз\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "ул. Ленинская Слобода, дом 26",
+        "OGRN": "5177746397219",
+        "INN": "007725413350",
+        "email_domain": "gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 272,
+    "fields": {
+        "branch": "Федеральный центр компетенци",
+        "area": "",
+        "city": "",
+        "adress": "1-й Нагатинский проезд, д.1 с.10",
+        "OGRN": "1177700023137",
+        "INN": "007724426759",
+        "email_domain": "gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 273,
+    "fields": {
+        "organization_name": "АО \"АТОМПРОЕКТ\"",
+        "full_organization_name": "Акционерное общество \"АТОМПРОЕКТ\"",
+        "area": "78 г. Санкт-Петербург",
+        "city": "город Санкт-Петербург",
+        "adress": "ул.Савушкина, дом 82 лит. А",
+        "OGRN": "1089847342001",
+        "INN": "007814417371",
+        "email_domain": "@atomproekt.com, @gk.rosatom.local"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 274,
+    "fields": {
+        "organization_name": "ООО \"АКСИС Менеджмент\"",
+        "area": "77 город Москва",
+        "city": "город Москва",
+        "adress": "ул. Нижняя Красносельская, д. 35, стр. 64",
+        "OGRN": "5067746105235",
+        "INN": "007723581751"
+    }
+},
+{
+    "model": "organizations.Organizations",
+    "pk": 275,
+    "fields": {
+        "organization_name": "ООО \"Русатом Гринвэй\"",
+        "full_organization_name": "Общество с ограниченной ответственностью \"Русатом Гринвэй\"",
+        "area": "77 г. Москва",
+        "city": "город Москва",
+        "adress": "Пыжевский переулок, дом 6",
+        "OGRN": "1187746351055",
+        "INN": "007706452851",
+        "email_domain": "@rosatom.ru, @gk.rosatom.local"
+    }
+}
+]
