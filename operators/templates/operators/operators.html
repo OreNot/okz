@@ -16,17 +16,18 @@
                 <div class="container">
 
     <div class="row">
-        <div class="col-1 offset-2">
-                 <div class="form-check form-check-inline mt-3">
+         <div>
+                 <div class="form-check form-check-inline mt-3 w-95 col">
 
 
-                      {{ form.filial_name }}
+                      {{ form.fio }}
+
                     </div>
         </div>
-        <div class="col-4 offset-1">
+        <div>
              <div class="form-group row mt-3">
-                    <div class="col-sm-3">
-                        <button type="submit" hidden="true" id="submit" class="btn btn-primary mb-2">фильтр</button>
+                    <div class="col-sm-1">
+                        <button type="submit" id="submit" class="btn btn-primary mb-2">Поиск</button>
 
                     </div>
                 </div>
@@ -43,10 +44,10 @@
       {% if operator.fio %}
 <a href="/operators/{{ operator.id }}"><h3>{{ operator.fio }}</h3></a>
     {% if operator.filial_name %}
-<h5>{{ operator.filial_name }}</h5>
+    <h5 class="text-info">Наименование филиала: <p style="display:inline" class="text-dark">{{ operator.filial_name }}</p></h5>
     {% endif %}
     {% if operator.telephone %}
-<h5>{{ operator.telephone }}</h5>
+    <h5 class="text-info">Рабочий телефон: <p style="display:inline" class="text-dark">{{ operator.telephone }}</p></h5>
     {% endif %}
     {% if operator.email %}
     <h5><a href="mailto:{{ operator.email }}">{{ operator.email }}</a></h5>

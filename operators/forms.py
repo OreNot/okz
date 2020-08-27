@@ -2,10 +2,20 @@ from django import forms
 
 from django.forms import ModelForm, TextInput, ChoiceField
 
-from operators.models import Filials
+from operators.models import Filials, Operators
 
 
 class OperatorsForm(ModelForm):
+    class Meta:
+        model = Operators
+        fields = ['fio']
+        widgets = {'fio': TextInput(attrs={
+            'class': 'form-control',
+            'name': 'organization',
+            'id': 'organization',
+            'placeholder': 'Поиск'
+        })}
+    '''
     class Meta:
         model = Filials
         fields = ['filial_name']
@@ -35,3 +45,4 @@ class OperatorsForm(ModelForm):
             'style': 'width:auto;',
             'onchange': 'toggleSelect(this)'
         }, choices=blank_choice + CHOICES)}
+'''

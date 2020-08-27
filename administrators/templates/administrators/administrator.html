@@ -7,7 +7,7 @@
 <h5 class="text-secondary">Номер приказа: {{ order_admin_ib.order_num }}</h5>
 {% endif %}
 {% if order_admin_ib.order_date %}
-<h5 class="text-secondary">Дата приказа: {{ order_admin_ib.order_date}}</h5>
+<h5 class="text-secondary">Дата приказа: {{ order_admin_ib.order_date|date:"d.m.Y"}}</h5>
 {% endif %}
 {% if order_admin_ib.order_file %}
 <h6 class="text-dark">

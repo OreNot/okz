@@ -10,11 +10,11 @@ def get_operators(request):
         form = OperatorsForm(request.POST)
 
         if form.is_valid():
-            filial_name = form.cleaned_data['filial_name']
-            print(filial_name)
+            fio = form.cleaned_data['fio']
+            print(fio)
             operators = Operators.objects.all()
             all_operators = []
-            if filial_name == '0':
+            if fio == '0':
                 for operator in operators:
                             operator_info = {
                             'id': operator.id,
@@ -32,7 +32,7 @@ def get_operators(request):
                 return render(request, 'operators/operators.html', context)
 
             for operator in operators:
-                if filial_name in operator.filial.rg_kuc_hpsm:
+                if str.upper(str(fio)) in str.upper(operator.fio):
                      operator_info = {
                         'id': operator.id,
                         'filial_name': operator.filial.filial_name,

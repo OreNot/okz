@@ -37,13 +37,13 @@
     {% if organization.organization_name or organization.branch or organization.full_organization_name %}
 <a href="/organizations/{{ organization.id }}"><h3>{{ organization.organization_name }}</h3></a>
       {% if organization.gid %}
-<h5>GID: {{ organization.gid }}</h5>
+    <h5 class="text-info">GID: <p style="display:inline" class="text-dark">{{ organization.gid }}</p></h5>
     {% endif %}
     {% if organization.inn %}
-<h5>ИНН: {{ organization.inn }}</h5>
+    <h5 class="text-info">ИНН: <p style="display:inline" class="text-dark">{{ organization.inn }}</p></h5>
     {% endif %}
     {% if organization.services %}
-<h5>Предмет договора: {{ organization.services }}</h5>
+    <h5 class="text-info">Предмет договора: <p style="display:inline" class="text-dark">{{ organization.services }}</p></h5>
     {% endif %}
 
 {% endif %}

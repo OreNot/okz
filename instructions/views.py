@@ -18,7 +18,7 @@ from okz.settings import STATIC_DIR, STATIC_DOCS_DIR
 
 def send_mail(
         sender,
-        receivers: List[str],
+        receivers: str,
         subject,
         body,
         files=None
@@ -34,7 +34,7 @@ def send_mail(
     """Sends an email to the specified receivers using an Exchange server."""
     message = MIMEMultipart()
     message["From"] = sender
-    message["To"] = ",".join(receivers)
+    message["To"] = receivers
     message["Subject"] = subject
     message.attach(MIMEText(body))
 

@@ -44,10 +44,10 @@
       {% if order.order_num %}
 <a href="/orders/{{ order.id }}"><h3>{{ order.order_num }}</h3></a>
     {% if order.order_date %}
-<h5>{{ order.order_date }}</h5>
+    <h5 class="text-info">Дата приказа: <p style="display:inline" class="text-dark">{{ order.order_date|date:"d.m.Y" }}</p></h5>
      {% endif %}
     {% if order.order_organization %}
-<h5>{{ order.order_organization.organization_name }}</h5>
+    <h5 class="text-info">Наименование организации: <p style="display:inline" class="text-dark">{{ order.order_organization.organization_name }}</p></h5>
      {% endif %}
 {% endif %}
     <br>
