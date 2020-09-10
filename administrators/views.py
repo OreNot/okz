@@ -50,7 +50,7 @@ def get_administrators(request):
                 return render(request, 'administrators/administrators.html', context)
             else:
                 for order in orders:
-                    if (str.upper(str(adminFilter)) in str.upper(order.order_administrator.fio)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.e_mail)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.city)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.filial_name)) or (str.upper(str(adminFilter)) in str.upper(order.order_organization.organization_name)) or (str.upper(str(adminFilter)) in str.upper(str(order.order_organization.gid))) or (str.upper(str(adminFilter)) in str.upper(str(order.order_organization.inn)))  or (str.upper(str(adminFilter)) in str.upper(order.order_organization.services)):
+                    if (str.upper(str(adminFilter)) in str.upper(order.order_administrator.fio)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.e_mail)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.city)) or (str.upper(str(adminFilter)) in str.upper(order.order_administrator.filial_name)) or (str.upper(str(adminFilter)) in str.upper(order.order_organization.organization_name)) or (str.upper(str(adminFilter)) in str.upper(str(order.order_organization.gid))) or (str.upper(str(adminFilter)) in str.upper(str(order.order_organization.inn)))  or (str.upper(str(adminFilter)) in str.upper(order.order_organization.services)) or (str.upper(str(adminFilter)) in str.upper(order.order_organization.organization_name)):
                          administrator_info = {
                             'id': order.id,
                             'order_num': order.order_num,

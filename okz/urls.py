@@ -15,10 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url, include
+from django.urls import path
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^operators/', include('operators.urls')),
+    url(r'^skzis/', include('skzis.urls')),
     url(r'^operatoranswers/', include('operatoranswers.urls')),
     url(r'^administrators/', include('administrators.urls')),
     url(r'^orders/', include('orders.urls')),
@@ -28,3 +30,7 @@ urlpatterns = [
     url(r'^news/', include('news.urls')),
     url(r'', include('mainapp.urls')),
     ]
+#Add Django site authentication urls (for login, logout, password management)
+urlpatterns += [
+    path('accounts/', include('django.contrib.auth.urls')),
+]

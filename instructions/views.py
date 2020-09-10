@@ -1,5 +1,7 @@
 import os
 import smtplib
+from django.contrib.auth.decorators import login_required
+
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -55,7 +57,7 @@ def send_mail(
     server.sendmail(sender, receivers, message.as_string())
     server.quit()
 
-
+@login_required
 def instrictions(request):
     if (request.method == 'POST'):
             file_list=[]
