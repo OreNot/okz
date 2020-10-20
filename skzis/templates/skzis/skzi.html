@@ -1,0 +1,58 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<h2 class="text-info">{{ skzis.skziserial_name}}</h2>
+
+{% if skzis.skziuser_name and skzis.skziuser_name != "Null" %}
+<h5 class="text-info">Пользователь СКЗИ (Ф.И.О.), Администратор безопасности : <p style="display:inline" class="text-dark">{{ skzis.skziuser_name }}</p></h5>
+{% endif %}
+{% if skzis.skzi_type and skzis.skzi_type != "Null" %}
+<h5 class="text-info">Тип СКЗИ : <p style="display:inline" class="text-dark">{{ skzis.skzi_type }}</p></h5>
+{% endif %}
+{% if skzis.skziserial_name and skzis.skziserial_name != "Null" %}
+<h5 class="text-info">Серийный номер СКЗИ (№ и код лицензии 4,2) : <p style="display:inline" class="text-dark">{{ skzis.skziserial_name }}</p></h5>
+{% endif %}
+{% if skzis.ais and skzis.ais != "Null" %}
+<h5 class="text-info">АИС : <p style="display:inline" class="text-dark">{{ skzis.ais }}</p></h5>
+{% endif %}
+{% if skzis.pvmserial_name and skzis.pvmserial_name != "Null" %}
+<h5 class="text-info">ПЭВМ (серийный/инвентарный номер) : <p style="display:inline" class="text-dark">{{ skzis.pvmserial_name }}</p></h5>
+{% endif %}
+{% if skzis.pechat_number and skzis.pechat_number != "Null" %}
+<h5 class="text-info">Опечатан печатью № : <p style="display:inline" class="text-dark">{{ skzis.pechat_number }}</p></h5>
+{% endif %}
+{% if skzis.adress and skzis.adress != "Null" %}
+<h5 class="text-info">Адрес : <p style="display:inline" class="text-dark">{{ skzis.adress }}</p></h5>
+{% endif %}
+
+{% if skzis.software and skzis.software != "Null" %}
+<h5 class="text-info">ПО установленное : <p style="display:inline" class="text-dark">{{ skzis.software }}</p></h5>
+{% endif %}
+
+{% if skzis.szz and skzis.szz != "Null" %}
+<h5 class="text-info">ССЗ : <p style="display:inline" class="text-dark">{{ skzis.szz }}</p></h5>
+{% endif %}
+
+{% if skzis.catalognumber and skzis.catalognumber != "Null" %}
+<h5 class="text-info">Номер папки : <p style="display:inline" class="text-dark">{{ skzis.catalognumber }}</p></h5>
+{% endif %}
+
+{% if skzis.description and skzis.description != "Null" %}
+<h5 class="text-info">Примечание : <p style="display:inline" class="text-dark">{{ skzis.description }}</p></h5>
+{% endif %}
+
+{% if skzis.sertificate and skzis.sertificate != "Null" %}
+<h5 class="text-info">Сертификат : <p style="display:inline" class="text-dark">{{ skzis.sertificate }}</p></h5>
+{% endif %}
+
+{% if skzis.organization %}
+    <h5 class="text-secondary">Организация: <a href="/organizations/{{ skzis.organization.id }}">{{ skzis.organization.organization_name }}</a></h5>
+
+    {% endif %}
+
+
+<p>{{skzis.skzi|safe|linebreaks}}</p>
+
+<br>
+{% endblock %}

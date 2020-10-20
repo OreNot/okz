@@ -1,0 +1,66 @@
+{% extends "mainapp/wrapper.html" %}
+
+{% block content %}
+
+<script language="JavaScript">
+    function toggleSelect(elem) {
+
+    document.getElementById("submit").click();
+    }
+    </script>
+
+<div class="form-row">
+        <div class="form-group col-md-10">
+            <form method="post" enctype="multipart/form-data" id="js-upload-form">
+                {% csrf_token %}
+                <div class="container">
+
+    <div class="row">
+         <div>
+                 <div class="form-check form-check-inline mt-3 w-95 col">
+
+
+                      {{ form.skziserial_name }}
+
+                    </div>
+        </div>
+        <div>
+             <div class="form-group row mt-3">
+                    <div class="col-sm-1">
+                        <button type="submit" id="submit" class="btn btn-primary mb-2">Поиск</button>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+                </div>
+
+
+
+<h1 class="display-4">СКЗИ</h1>
+<div class="jumbotron mt-3">
+
+ {% for skzi in all_skzis %}
+      {% if skzi.skziserial_name %}
+<a href="/skzis/{{ skzi.id }}"><h3>{{ skzi.skziserial_name }}</h3></a>
+    {% if skzi.skzi_type %}
+    <h5 class="text-info">Тип СКЗИ : <p style="display:inline" class="text-dark">{{ skzi.skzi_type }}</p></h5>
+    {% endif %}
+    {% if skzi.pvmserial_name %}
+    <h5 class="text-info">ПЭВМ (серийный/инвентарный номер) : <p style="display:inline" class="text-dark">{{ skzi.pvmserial_name }}</p></h5>
+    {% endif %}
+    {% if skzi.organization %}
+    <h5 class="text-secondary">Организация: <a href="/organizations/{{ skzi.organization.id }}">{{ skzi.organization.organization_name }}</a></h5>
+
+    {% endif %}
+    <br>
+      {% endif %}
+    {% endfor %}
+
+
+<br>
+</div>
+            </form>
+        </div>
+</div>
+{% endblock %}
