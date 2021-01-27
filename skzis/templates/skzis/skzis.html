@@ -1,4 +1,4 @@
-{% extends "mainapp/wrapper.html" %}
+p{% extends "mainapp/wrapper.html" %}
 
 {% block content %}
 
@@ -8,7 +8,7 @@
     document.getElementById("submit").click();
     }
     </script>
-
+{% if user.is_authenticated %}
 <div class="form-row">
         <div class="form-group col-md-10">
             <form method="post" enctype="multipart/form-data" id="js-upload-form">
@@ -63,4 +63,6 @@
             </form>
         </div>
 </div>
+
+{% endif %}
 {% endblock %}
